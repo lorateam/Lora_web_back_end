@@ -1,29 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Lora_web_back_end:Web exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="b42e7754-b47c-4f66-96ba-1655e53fcd15" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Lora_web_back_end_Web_exploded.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/web/WEB-INF/web.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lora/lora.iml" afterPath="$PROJECT_DIR$/lora.iml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lora/src/lora/bean/Address.java" afterPath="$PROJECT_DIR$/src/bean/Address.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lora/src/lora/bean/Appliance.java" afterPath="$PROJECT_DIR$/src/bean/Appliance.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lora/src/lora/bean/Img.java" afterPath="$PROJECT_DIR$/src/bean/Img.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lora/src/lora/bean/Property.java" afterPath="$PROJECT_DIR$/src/bean/Property.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lora/src/lora/bean/Review.java" afterPath="$PROJECT_DIR$/src/bean/Review.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lora/src/lora/bean/Room.java" afterPath="$PROJECT_DIR$/src/bean/Room.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lora/src/lora/bean/User.java" afterPath="$PROJECT_DIR$/src/bean/User.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lora/src/lora/dao/AddressDAO.java" afterPath="$PROJECT_DIR$/src/dao/AddressDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lora/src/lora/dao/ApplianceDAO.java" afterPath="$PROJECT_DIR$/src/dao/ApplianceDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lora/src/lora/dao/ImgDAO.java" afterPath="$PROJECT_DIR$/src/dao/ImgDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lora/src/lora/dao/PropertyDAO.java" afterPath="$PROJECT_DIR$/src/dao/PropertyDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lora/src/lora/dao/RoomDAO.java" afterPath="$PROJECT_DIR$/src/dao/RoomDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lora/src/lora/dao/UserDAO.java" afterPath="$PROJECT_DIR$/src/dao/UserDAO.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lora/src/lora/util/DBUtil.java" afterPath="$PROJECT_DIR$/src/dbset/DBUtil.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/lora/src/lora/util/DateUtil.java" afterPath="$PROJECT_DIR$/src/dbset/DateUtil.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/classes/lora/bean/Address.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/classes/lora/bean/Appliance.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/classes/lora/bean/Img.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/classes/lora/bean/Property.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/classes/lora/bean/Room.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/classes/lora/bean/User.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/classes/lora/dao/PropertyDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/classes/lora/dao/RoomDAO.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web/classes/lora/util/DateUtil.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/dao/ApplianceDAO.java" afterPath="$PROJECT_DIR$/src/dao/ApplianceDAO.java" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -34,24 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="37" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AddressDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dao/AddressDAO.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2685#2694#0" expanded="true" />
@@ -96,30 +76,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PropertyDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/dao/PropertyDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#4146#4156#0" expanded="true" />
-                <element signature="e#5613#5623#0" expanded="true" />
-                <marker date="1523367810990" expanded="true" signature="494:523" ph="select count... Property" />
-                <marker date="1523367810990" expanded="true" signature="827:866" ph="insert into Property... " />
-                <marker date="1523367810990" expanded="true" signature="1465:1522" ph="update Prope... " />
-                <marker date="1523367810990" expanded="true" signature="2085:2117" ph="delete from " />
-                <marker date="1523367810990" expanded="true" signature="2433:2467" ph="select * fro... Property" />
-                <marker date="1523367810990" expanded="true" signature="3286:3343" ph="select * fro... Property" />
-                <marker date="1523367810990" expanded="false" signature="3996:4007" ph=" { " />
-                <marker date="1523367810990" expanded="false" signature="4039:4045" ph=" }" />
-                <marker date="1523367810990" expanded="true" signature="4183:4232" ph="select * fro... Property" />
-                <marker date="1523367810990" expanded="true" signature="5650:5704" ph="select * fro... Property" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="RoomDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dao/RoomDAO.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -158,29 +114,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ApplianceDAO.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ApplianceDAO.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dao/ApplianceDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="107" column="16" lean-forward="false" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+            <state relative-caret-position="885">
+              <caret line="271" column="0" lean-forward="false" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1523367885217" expanded="true" signature="546:589" ph="select count... Appliance" />
-                <marker date="1523367885217" expanded="true" signature="900:942" ph="insert into Appliance... " />
-                <marker date="1523367885217" expanded="true" signature="1615:1683" ph="update Appli... " />
-                <marker date="1523367885217" expanded="true" signature="2320:2353" ph="delete from " />
-                <marker date="1523367885217" expanded="true" signature="2672:2707" ph="select * fro... Appliance" />
-                <marker date="1523367885217" expanded="false" signature="3477:3488" ph=" { " />
-                <marker date="1523367885217" expanded="false" signature="3524:3530" ph=" }" />
-                <marker date="1523367885217" expanded="false" signature="3642:3653" ph="&lt;~&gt;" />
-                <marker date="1523367885217" expanded="true" signature="3732:3796" ph="select * fro... Appliance" />
-                <marker date="1523367885217" expanded="false" signature="4767:4778" ph=" { " />
-                <marker date="1523367885217" expanded="false" signature="4809:4815" ph=" }" />
-                <marker date="1523367885217" expanded="false" signature="4917:4928" ph="&lt;~&gt;" />
-                <marker date="1523367885217" expanded="true" signature="4955:4988" ph="select * fro... Appliance" />
-                <marker date="1523367885217" expanded="false" signature="7159:7170" ph="&lt;~&gt;" />
-                <marker date="1523367885217" expanded="true" signature="7277:7328" ph="select * fro... Appliance" />
+                <marker date="1523369066562" expanded="true" signature="546:589" ph="select count... Appliance" />
+                <marker date="1523369066562" expanded="true" signature="900:942" ph="insert into Appliance... " />
+                <marker date="1523369066562" expanded="true" signature="1615:1683" ph="update Appli... " />
+                <marker date="1523369066562" expanded="true" signature="2320:2353" ph="delete from " />
+                <marker date="1523369066562" expanded="true" signature="2672:2707" ph="select * fro... Appliance" />
+                <marker date="1523369066562" expanded="false" signature="3481:3492" ph=" { " />
+                <marker date="1523369066562" expanded="false" signature="3528:3534" ph=" }" />
+                <marker date="1523369066562" expanded="false" signature="3646:3657" ph="&lt;~&gt;" />
+                <marker date="1523369066562" expanded="true" signature="3736:3800" ph="select * fro... Appliance" />
+                <marker date="1523369066562" expanded="false" signature="4775:4786" ph=" { " />
+                <marker date="1523369066562" expanded="false" signature="4817:4823" ph=" }" />
+                <marker date="1523369066562" expanded="false" signature="4925:4936" ph="&lt;~&gt;" />
+                <marker date="1523369066562" expanded="true" signature="4963:4996" ph="select * fro... Appliance" />
+                <marker date="1523369066562" expanded="false" signature="7171:7182" ph="&lt;~&gt;" />
+                <marker date="1523369066562" expanded="true" signature="7289:7340" ph="select * fro... Appliance" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="583">
+              <caret line="2297" column="6" lean-forward="true" selection-start-line="2297" selection-start-column="6" selection-end-line="2297" selection-end-column="6" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1523368984396" expanded="true" signature="99142:99156" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.easypiechart.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/assets/js/vendor/easypiechart/jquery.easypiechart.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="489">
+              <caret line="106" column="10" lean-forward="true" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -188,8 +167,8 @@
       <file leaf-file-name="DateUtil.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/dbset/DateUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="225">
+              <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -219,6 +198,8 @@
       <find>getN</find>
       <find>lora.</find>
       <find>getDate</find>
+      <find>chart</find>
+      <find>statistics-chart</find>
     </findStrings>
     <replaceStrings>
       <replace>getCreateDate</replace>
@@ -245,6 +226,7 @@
         <option value="$PROJECT_DIR$/src/dao/ImgDAO.java" />
         <option value="$PROJECT_DIR$/src/bean/Appliance.java" />
         <option value="$PROJECT_DIR$/src/dao/ApplianceDAO.java" />
+        <option value="$PROJECT_DIR$/web/assets/js/vendor/easypiechart/jquery.easypiechart.min.js" />
       </list>
     </option>
   </component>
@@ -254,7 +236,14 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2086" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
@@ -483,6 +472,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b42e7754-b47c-4f66-96ba-1655e53fcd15" name="Default" comment="" />
@@ -490,40 +482,40 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1523365848452</updated>
-      <workItem from="1523365849864" duration="2143000" />
+      <workItem from="1523365849864" duration="3792000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2143000" />
+    <option name="totallyTimeSpent" value="3792000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2086" y="0" width="1920" height="1108" extended-state="6" />
-    <editor active="true" />
+    <frame x="1920" y="0" width="1920" height="1080" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976654" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32976654" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976654" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976654" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28793773" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -600,22 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/dbset/DateUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/dbset/DBUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/RoomDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -654,7 +630,7 @@
     <entry file="file://$PROJECT_DIR$/src/dao/AddressDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2685#2694#0" expanded="true" />
@@ -680,25 +656,60 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/dao/ApplianceDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="107" column="16" lean-forward="false" selection-start-line="107" selection-start-column="16" selection-end-line="107" selection-end-column="16" />
+        <state relative-caret-position="885">
+          <caret line="271" column="0" lean-forward="false" selection-start-line="271" selection-start-column="0" selection-end-line="271" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1523367885217" expanded="true" signature="546:589" ph="select count... Appliance" />
-            <marker date="1523367885217" expanded="true" signature="900:942" ph="insert into Appliance... " />
-            <marker date="1523367885217" expanded="true" signature="1615:1683" ph="update Appli... " />
-            <marker date="1523367885217" expanded="true" signature="2320:2353" ph="delete from " />
-            <marker date="1523367885217" expanded="true" signature="2672:2707" ph="select * fro... Appliance" />
-            <marker date="1523367885217" expanded="false" signature="3477:3488" ph=" { " />
-            <marker date="1523367885217" expanded="false" signature="3524:3530" ph=" }" />
-            <marker date="1523367885217" expanded="false" signature="3642:3653" ph="&lt;~&gt;" />
-            <marker date="1523367885217" expanded="true" signature="3732:3796" ph="select * fro... Appliance" />
-            <marker date="1523367885217" expanded="false" signature="4767:4778" ph=" { " />
-            <marker date="1523367885217" expanded="false" signature="4809:4815" ph=" }" />
-            <marker date="1523367885217" expanded="false" signature="4917:4928" ph="&lt;~&gt;" />
-            <marker date="1523367885217" expanded="true" signature="4955:4988" ph="select * fro... Appliance" />
-            <marker date="1523367885217" expanded="false" signature="7159:7170" ph="&lt;~&gt;" />
-            <marker date="1523367885217" expanded="true" signature="7277:7328" ph="select * fro... Appliance" />
+            <marker date="1523369066562" expanded="true" signature="546:589" ph="select count... Appliance" />
+            <marker date="1523369066562" expanded="true" signature="900:942" ph="insert into Appliance... " />
+            <marker date="1523369066562" expanded="true" signature="1615:1683" ph="update Appli... " />
+            <marker date="1523369066562" expanded="true" signature="2320:2353" ph="delete from " />
+            <marker date="1523369066562" expanded="true" signature="2672:2707" ph="select * fro... Appliance" />
+            <marker date="1523369066562" expanded="false" signature="3481:3492" ph=" { " />
+            <marker date="1523369066562" expanded="false" signature="3528:3534" ph=" }" />
+            <marker date="1523369066562" expanded="false" signature="3646:3657" ph="&lt;~&gt;" />
+            <marker date="1523369066562" expanded="true" signature="3736:3800" ph="select * fro... Appliance" />
+            <marker date="1523369066562" expanded="false" signature="4775:4786" ph=" { " />
+            <marker date="1523369066562" expanded="false" signature="4817:4823" ph=" }" />
+            <marker date="1523369066562" expanded="false" signature="4925:4936" ph="&lt;~&gt;" />
+            <marker date="1523369066562" expanded="true" signature="4963:4996" ph="select * fro... Appliance" />
+            <marker date="1523369066562" expanded="false" signature="7171:7182" ph="&lt;~&gt;" />
+            <marker date="1523369066562" expanded="true" signature="7289:7340" ph="select * fro... Appliance" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbset/DBUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/dbset/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/assets/js/vendor/easypiechart/jquery.easypiechart.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="489">
+          <caret line="106" column="10" lean-forward="true" selection-start-line="106" selection-start-column="10" selection-end-line="106" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="583">
+          <caret line="2297" column="6" lean-forward="true" selection-start-line="2297" selection-start-column="6" selection-end-line="2297" selection-end-column="6" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#section#0;n#div#0;n#div#1;n#div#1;n#div#1;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1523368984396" expanded="true" signature="99142:99156" ph="..." />
           </folding>
         </state>
       </provider>

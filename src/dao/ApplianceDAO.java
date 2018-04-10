@@ -103,13 +103,13 @@ public class ApplianceDAO {
                 String name = rs.getString("name");
                 String remark = rs.getString("remark");
                 int cid = rs.getInt("cid");
-                Date date = DateUtil.timestampToDate(rs.getTimestamp("Date"));
+//                Date date = DateUtil.timestampToDate(rs.getTimestamp("Date"));
 
                 bean.setName(name);
                 bean.setRemark(remark);
                 Address address = new AddressDAO().get(cid);
                 bean.setAddress(address);
-                bean.setCreateDate(date);
+//                bean.setCreateDate(date);
                 bean.setId(id);
                 setFirstImg(bean);
             }
@@ -142,11 +142,11 @@ public class ApplianceDAO {
                 int id = rs.getInt(1);
                 String name = rs.getString("name");
                 String remark = rs.getString("remark");
-                Date date = DateUtil.timestampToDate( rs.getTimestamp("Date"));
+//                Date date = DateUtil.timestampToDate( rs.getTimestamp("Date"));
 
                 bean.setName(name);
                 bean.setRemark(remark);
-                bean.setDate(date);
+//                bean.setDate(date);
                 bean.setId(id);
                 bean.setAddress(address);
                 setFirstImg(bean);
@@ -180,11 +180,11 @@ public class ApplianceDAO {
                 String name = rs.getString("name");
                 String remark = rs.getString("remark");
 
-                Date date = DateUtil.timestampToDate( rs.getTimestamp("Date"));
+//                Date date = DateUtil.timestampToDate( rs.getTimestamp("Date"));
 
                 bean.setName(name);
                 bean.setRemark(remark);
-                bean.setDate(date);
+//                bean.setDate(date);
                 bean.setId(id);
 
                 Address Address = new AddressDAO().get(cid);
@@ -249,11 +249,11 @@ public class ApplianceDAO {
                 int cid = rs.getInt("cid");
                 String name = rs.getString("name");
                 String remark = rs.getString("remark");
-                Date date = DateUtil.timestampToDate( rs.getTimestamp("Date"));
+//                Date date = DateUtil.timestampToDate( rs.getTimestamp("Date"));
 
                 bean.setName(name);
                 bean.setRemark(remark);
-                bean.setDate(date);
+//                bean.setDate(date);
                 bean.setId(id);
 
                 Address address = new AddressDAO().get(cid);
