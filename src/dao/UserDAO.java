@@ -7,6 +7,7 @@ import java.sql.*;
 
 public class UserDAO
 {
+    //获取数量
     public int getTotal()
     {
         int total=0;
@@ -25,7 +26,7 @@ public class UserDAO
         }
         return total;
     }
-
+    //添加用户
     public void add(User bean)
     {
         String sql="insert into user values(null,?,?)";
@@ -46,7 +47,13 @@ public class UserDAO
             e.printStackTrace();
         }
     }
-
+    //核实用户信息
+    public boolean check(User bean)
+    {
+        String sql="";
+        return false;
+    }
+    //更新用户信息
     public void update(User bean)
     {
         String sql="update user set name=?,password=? where id=?";
@@ -62,7 +69,7 @@ public class UserDAO
             e.printStackTrace();
         }
     }
-
+    //删除用户信息
     public void delete(int id)
     {
         try(Connection c=DBUtil.getConnection();Statement s=c.createStatement();)
