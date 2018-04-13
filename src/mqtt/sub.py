@@ -21,6 +21,7 @@ def on_connect(client, userdata, flags, rc):
 def analzeJson(dict_var):
     if(not dict_var.has_key('fk_id')):
         return -1
+    dict_var['fk_id'] = "\'%s\'" % dict_var['fk_id']
     sql_cllient = Mysql()
     sql = "select tableName from boxes where id={0}".format(dict_var['fk_id'])
     results = sql_cllient.querry(sql)
