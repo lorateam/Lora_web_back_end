@@ -50,7 +50,20 @@ public class UserDAO
     //核实用户信息
     public boolean check(User bean)
     {
-        String sql="";
+        String sql="SELECT * FROM USER WHERE id = "+bean.getId()+" AND PASSWORD="+"'"+bean.getPassword()+"'";
+        System.out.println(sql);
+        try(Connection c= DBUtil.getConnection(); Statement s=c.createStatement();)
+        {
+            ResultSet rs = s.executeQuery(sql);
+            rs.last();
+            int count = rs.getRow();
+            if(count == 1) return true ;
+            return false;
+        }
+        catch(SQLException e)
+        {
+            e.printStackTrace();
+        }
         return false;
     }
     //更新用户信息
