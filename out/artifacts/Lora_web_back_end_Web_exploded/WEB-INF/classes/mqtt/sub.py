@@ -1,37 +1,49 @@
 #coding=utf-8
 '''
-使用前pip install pymysql、　pip install paho-mqtt
-MQTT API: https://pypi.python.org/pypi/paho-mqtt
+1. 使用前pip install pymysql、　pip install paho-mqtt
+2. MQTT API: https://pypi.python.org/pypi/paho-mqtt
+3. topic报文格式使用python一级字典（单层json）格式，报文中需要加入单片机唯一id编号，例如｛"id":"123","tempreture":"48","humility":"89"｝
+4. 数据表名称为（b_001）,001代表单片机id前缀
 '''
 import paho.mqtt.client as mqtt
-import pymysql
+from sqlSet import Mysql
+import time
+
+
+def Time():
+    str = time.strftime("[%m-%d %H:%M]", time.localtime())
+    return str
 
 def on_connect(client, userdata, flags, rc):
     print("Connected with result code "+str(rc))
-    client.subscribe("DCS/ESP8266/TEMP")
+    client.subscribe("SCU/#")
 
+def analzeJson(dict_var):
+    if(not dict_var.has_key('fk_id')):
+        return -1
+    dict_var['fk_id'] = "\'%s\'" % dict_var['fk_id']
+    sql_cllient = Mysql()
+    sql = "select tableName from boxes where id={0}".format(dict_var['fk_id'])
+    results = sql_cllient.querry(sql)
+    table = results[0]['tableName']
+    columns=''
+    values=''
+    for key in dict_var:
+        columns += key + ','
+        values += dict_var[key] + ','
+    sql = "INSERT INTO {0}({1}) VALUES({2})".format(table,columns[:-1],values[:-1])
+    sql_cllient.update(sql)
+        
 def on_message(client, userdata, msg):
     '''收到消息就执行下面的操作'''
-    # print(msg.topic+" "+str(msg.payload))
-    sql ="INSERT INTO mqtt_test(temp) values(" + msg.payload + ");"
-    print(sql)
-    insert_db(sql)
+    jsonStr = str(msg.payload)
+    dictType = eval(jsonStr)
+    # print(Time()+str(dictType)) #日志消息
+    analzeJson(dictType)
 
+mqtt_client = mqtt.Client()
+mqtt_client.on_connect = on_connect
+mqtt_client.on_message = on_message
+mqtt_client.connect("tx.3cat.top", 1883, 60)
+mqtt_client.loop_forever()
 
-def insert_db(sql):
-    connection = pymysql.connect(host='127.0.0.1', port=3306, user='root', password='123', db='test',
-                                charset='utf8', cursorclass=pymysql.cursors.DictCursor)
-    # 通过cursor创建游标
-    cursor = connection.cursor()
-    # 创建sql 语句，并执行
-    cursor.execute(sql)
-    # 提交SQL
-    connection.commit()
-
-
-client = mqtt.Client()
-client.on_connect = on_connect
-client.on_message = on_message
-# #创建连接并循环执行on_message操作
-client.connect("tx.3cat.top", 1883,60)
-client.loop_forever()
