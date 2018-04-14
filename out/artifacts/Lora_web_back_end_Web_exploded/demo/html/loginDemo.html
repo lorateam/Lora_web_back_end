@@ -14,7 +14,7 @@
     function check(){
         var tmpUserId=document.getElementById("userId").value;
         var tmpPassWord=document.getElementById("passWord").value;
-        $.post("check.jsp",{checkUserId:tmpUserId,checkPassWord:tmpPassWord},function (data) {
+        $.post("../jsp/check.jsp",{checkUserId:tmpUserId,checkPassWord:tmpPassWord},function (data) {
             var json = eval("("+data+")");
             var list = json.trueOrFalse;
             //这里返回的是字符串的true
