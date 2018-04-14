@@ -1,28 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Minimal 1.0 - Form Elements</title>
+    <title>Minimal 1.0 - Charts & Graphs</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
 
     <link rel="icon" type="image/ico" href="http://tattek.com/minimal/assets/images/favicon.ico" />
     <!-- Bootstrap -->
-    <link href="assets/css/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/vendor/animate/animate.css">
-    <link type="text/css" rel="stylesheet" media="all" href="assets/js/vendor/mmenu/css/jquery.mmenu.all.css" />
-    <link rel="stylesheet" href="assets/js/vendor/videobackground/css/jquery.videobackground.css">
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap-checkbox.css">
+    <link rel="stylesheet" href="../assets/css/vendor/animate/animate.css">
+    <link type="text/css" rel="stylesheet" media="all" href="../assets/js/vendor/mmenu/css/jquery.mmenu.all.css" />
+    <link rel="stylesheet" href="../assets/js/vendor/videobackground/css/jquery.videobackground.css">
+    <link rel="stylesheet" href="../assets/css/vendor/bootstrap-checkbox.css">
 
-    <link rel="stylesheet" href="assets/js/vendor/summernote/css/summernote.css">
-    <link rel="stylesheet" href="assets/js/vendor/summernote/css/summernote-bs3.css">
-    <link rel="stylesheet" href="assets/js/vendor/chosen/css/chosen.min.css">
-    <link rel="stylesheet" href="assets/js/vendor/chosen/css/chosen-bootstrap.css">
-    <link rel="stylesheet" href="assets/js/vendor/datepicker/css/bootstrap-datetimepicker.css">
-    <link rel="stylesheet" href="assets/js/vendor/colorpicker/css/bootstrap-colorpicker.css">
-    <link rel="stylesheet" href="assets/js/vendor/colorpalette/bootstrap-colorpalette.css">
+    <link rel="stylesheet" href="../assets/js/vendor/rickshaw/css/rickshaw.min.css">
+    <link rel="stylesheet" href="../assets/js/vendor/morris/css/morris.css">
 
-    <link href="assets/css/minimal.css" rel="stylesheet">
+    <link href="../assets/css/minimal.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,7 +28,9 @@
   </head>
   <body class="bg-1">
 
+
  
+
 
 
     <!-- Preloader -->
@@ -183,7 +180,7 @@
                   <li>
                     <a class="cyan" href="#">
                       <div class="profile-photo">
-                        <img src="assets/images/ici-avatar.jpg" alt />
+                        <img src="../assets/images/ici-avatar.jpg" alt />
                       </div>
                       <div class="message-info">
                         <span class="sender">Ing. Imrich Kamarel</span>
@@ -196,7 +193,7 @@
                   <li>
                     <a class="green" href="#">
                       <div class="profile-photo">
-                        <img src="assets/images/arnold-avatar.jpg" alt />
+                        <img src="../assets/images/arnold-avatar.jpg" alt />
                       </div>
                       <div class="message-info">
                         <span class="sender">Arnold Karlsberg</span>
@@ -209,7 +206,7 @@
                   <li>
                     <a href="#">
                       <div class="profile-photo">
-                        <img src="assets/images/profile-photo.jpg" alt />
+                        <img src="../assets/images/profile-photo.jpg" alt />
                       </div>
                       <div class="message-info">
                         <span class="sender">John Douey</span>
@@ -222,7 +219,7 @@
                   <li>
                     <a class="red" href="#">
                       <div class="profile-photo">
-                        <img src="assets/images/peter-avatar.jpg" alt />
+                        <img src="../assets/images/peter-avatar.jpg" alt />
                       </div>
                       <div class="message-info">
                         <span class="sender">Peter Kay</span>
@@ -235,7 +232,7 @@
                   <li>
                     <a class="orange" href="#">
                       <div class="profile-photo">
-                        <img src="assets/images/george-avatar.jpg" alt />
+                        <img src="../assets/images/george-avatar.jpg" alt />
                       </div>
                       <div class="message-info">
                         <span class="sender">George McCain</span>
@@ -308,7 +305,7 @@
 
               <li class="dropdown divided user" id="current-user">
                 <div class="profile-photo">
-                  <img src="assets/images/profile-photo.jpg" alt />
+                  <img src="../assets/images/profile-photo.jpg" alt />
                 </div>
                 <a class="dropdown-toggle options" data-toggle="dropdown" href="#">
                   John Douey <i class="fa fa-caret-down"></i>
@@ -394,12 +391,12 @@
                     </a>
                   </li>
 
-                  <li class="dropdown open active">
+                  <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                       <i class="fa fa-list"></i> Forms <b class="fa fa-plus dropdown-plus"></b>
                     </a>
                     <ul class="dropdown-menu">
-                      <li class="active">
+                      <li>
                         <a href="form-elements.html">
                           <i class="fa fa-caret-right"></i> Common Elements
                         </a>
@@ -541,7 +538,7 @@
                     </a>
                   </li>
 
-                  <li>
+                  <li class="active">
                     <a href="charts.html">
                       <i class="fa fa-bar-chart-o"></i> Charts & Graphs
                     </a>
@@ -646,15 +643,14 @@
           <div class="pageheader">
             
 
-            <h2><i class="fa fa-thumb-tack" style="line-height: 48px;padding-left: 1px;"></i> Form Elements <span>// Place subtitle here...</span></h2>
+            <h2><i class="fa fa-bar-chart-o" style="line-height: 48px;padding-left: 0;"></i> Charts & Graphs <span>// Place subtitle here...</span></h2>
             
 
             <div class="breadcrumbs">
               <ol class="breadcrumb">
                 <li>You are here</li>
                 <li><a href="index.html">Minimal</a></li>
-                <li><a href="form-elements.html">Forms</a></li>
-                <li class="active">Form Elements</li>
+                <li class="active">Charts & Graphs</li>
               </ol>
             </div>
 
@@ -677,464 +673,18 @@
             <div class="row">
 
               <!-- col 12 -->
-              <div class="col-md-6">
-
-
-
-                <!-- tile -->
-                <section class="tile color transparent-black">
-
-
-
-                  <!-- tile header -->
-                  <div class="tile-header">
-                    <h1><strong>Text</strong> Inputs</h1>
-                    <div class="controls">
-                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
-                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
-                    </div>
-                  </div>
-                  <!-- /tile header -->
-
-                  <!-- tile body -->
-                  <div class="tile-body">
-                    
-                    <form class="form-horizontal" role="form">
-                      
-                      <div class="form-group">
-                        <label for="input01" class="col-sm-4 control-label">Normal input field</label>
-                        <div class="col-sm-8">
-                          <input type="text" class="form-control" id="input01">
-                        </div>
-                      </div>
-
-                      <div class="form-group">
-                        <label for="input02" class="col-sm-4 control-label">Password input field</label>
-                        <div class="col-sm-8">
-                          <input type="password" class="form-control" id="input02">
-                        </div>
-                      </div>
-
-                      <div class="form-group">
-                        <label for="input03" class="col-sm-4 control-label">Input with help text</label>
-                        <div class="col-sm-8">
-                          <input type="text" class="form-control" id="input03">
-                          <span class="help-block">A block of help text that breaks onto a new line and may extend beyond one line.</span>
-                        </div>
-                      </div>
-
-                      <div class="form-group">
-                        <label for="input04" class="col-sm-4 control-label">Input field with placeholder</label>
-                        <div class="col-sm-8">
-                          <input type="text" class="form-control" id="input04" placeholder="This is placeholder...">
-                        </div>
-                      </div>
-
-                      <div class="form-group">
-                        <label for="input05" class="col-sm-4 control-label">Normal textarea</label>
-                        <div class="col-sm-8">
-                          <textarea class="form-control" id="input05" rows="6"></textarea>
-                        </div>
-                      </div>
-
-                      <div class="form-group transparent-editor">
-                        <label class="col-sm-4 control-label">Textarea with editor</label>
-                        <div class="col-sm-8">
-                          <div class="form-control" id="input06"></div>
-                        </div>
-                      </div>
-
-                      <div class="form-group form-footer">
-                        <div class="col-sm-offset-4 col-sm-8">
-                          <button type="submit" class="btn btn-primary">Submit</button>
-                          <button type="reset" class="btn btn-default">Reset</button>
-                        </div>
-                      </div>
-
-                    </form>
-
-                  </div>
-                  <!-- /tile body -->
-                  
-                
-
-
-                </section>
-                <!-- /tile -->
-
-
-
-
-              </div>
-              <!-- /col 6 -->
-
-
-              <!-- col 12 -->
-              <div class="col-md-6">
-
-
-
-                <!-- tile -->
-                <section class="tile color transparent-white">
-
-
-
-                  <!-- tile header -->
-                  <div class="tile-header">
-                    <h1><strong>Other</strong> Inputs</h1>
-                    <div class="controls">
-                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
-                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
-                    </div>
-                  </div>
-                  <!-- /tile header -->
-
-                  <!-- tile body -->
-                  <div class="tile-body">
-                    
-                    <form class="form-horizontal" role="form">
-                      
-                      <div class="form-group">
-                        <label for="input07" class="col-sm-4 control-label">Normal select box</label>
-                        <div class="col-sm-8">
-                          <select class="chosen-select chosen-transparent form-control" id="input07">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                          </select>
-                        </div>
-                      </div>
-
-                       <div class="form-group">
-                        <label for="input08" class="col-sm-4 control-label">Multiple select box</label>
-                        <div class="col-sm-8">
-                          <select multiple class="chosen-select chosen-transparent form-control" id="input08">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                          </select>
-                        </div>
-                      </div>
-
-                      <div class="form-group">
-                        <label for="datepicker" class="col-sm-4 control-label">Datetimepicker field</label>
-                        <div class="col-sm-8">
-                          <input type="text" class="form-control" id="datepicker">
-                        </div>
-                      </div>
-
-                      <div class="form-group">
-                        <label for="colorpicker" class="col-sm-4 control-label">Colorpicker HEX field</label>
-                        <div class="col-sm-8">
-                          <input type="text" class="form-control" id="colorpicker">
-                        </div>
-                      </div>
-
-                      <div class="form-group">
-                        <label for="colorpicker-rgb" class="col-sm-4 control-label">Colorpicker RGB field</label>
-                        <div class="col-sm-8">
-                          <input type="text" class="form-control" id="colorpicker-rgb">
-                        </div>
-                      </div>
-
-                      <div class="form-group">
-                        <label class="col-sm-4 control-label">Colorpalette</label>
-                        <div class="col-sm-8">
-                          <div class="input-group">
-                            <input type="text" class="form-control" id="color" name="color" readonly="">
-                            <div class="input-group-btn">
-                              <button type="button" class="btn btn-greensea dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tint"></i></button>
-                              <ul class="dropdown-menu pull-right">
-                                <li>
-                                  <div id="event-colorpalette" data-return-color="#color"></div>
-                                </li>
-                              </ul>
-                            </div><!-- /btn-group -->
-                          </div><!-- /input-group -->
-                        </div>
-                      </div>
-
-                      <div class="form-group">
-                        <label for="colorpicker-rgb" class="col-sm-4 control-label">File Upload field</label>
-                        <div class="col-sm-8">
-                          <div class="input-group">
-                          <span class="input-group-btn">
-                            <span class="btn btn-primary btn-file">
-                              <i class="fa fa-upload"></i><input type="file" multiple="">
-                            </span>
-                          </span>
-                          <input type="text" class="form-control" readonly="">
-                        </div>
-                        </div>
-                      </div>
-
-                      <div class="form-group">
-                        <label class="col-sm-4 control-label">Checkbox inputs</label>
-                        <div class="col-sm-8">
-                          <div class="checkbox check-transparent">
-                            <input type="checkbox" value="1" id="opt01" checked>
-                            <label for="opt01">Option 1</label>
-                          </div>
-                          <div class="checkbox check-transparent">
-                            <input type="checkbox" value="1" id="opt02">
-                            <label for="opt02">Option 2</label>
-                          </div>
-                          <div class="checkbox check-transparent">
-                            <input type="checkbox" value="1" id="opt03">
-                            <label for="opt03">Option 3</label>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="form-group">
-                        <label class="col-sm-4 control-label">Radio inputs</label>
-                        <div class="col-sm-8">
-                          <div class="radio radio-transparent">
-                            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
-                            <label for="optionsRadios1">Option 1</label>
-                          </div>
-                          <div class="radio radio-transparent">
-                            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
-                            <label for="optionsRadios2">Option 2</label>
-                          </div>
-                          <div class="radio radio-transparent">
-                            <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3">
-                            <label for="optionsRadios3">Option 3</label>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div class="form-group form-footer footer-white">
-                        <div class="col-sm-offset-4 col-sm-8">
-                          <button type="submit" class="btn btn-greensea">Submit</button>
-                          <button type="reset" class="btn btn-red">Reset</button>
-                        </div>
-                      </div>
-                            
-                    </form>
-
-                  </div>
-                  <!-- /tile body -->
-                  
-                
-
-
-                </section>
-                <!-- /tile -->
-
-
-
-
-              </div>
-              <!-- /col 6 -->
-
-
-              
-            </div>
-            <!-- /row -->
-
-
-
-
-            <!-- row -->
-            <div class="row">
-              
-
-              <!-- col 12 -->
               <div class="col-md-12">
-              
 
-                
+
+
                 <!-- tile -->
                 <section class="tile">
 
 
-                  <!-- tile header -->
-                  <div class="tile-header">
-                    <h1><strong>Input</strong> Groups</h1>
-                    <div class="controls">
-                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
-                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
-                    </div>
-                  </div>
-                  <!-- /tile header -->
-
-                  <!-- tile body -->
-                  <div class="tile-body">
-                    
-                    <div class="input-group margin-bottom-20">
-                      <span class="input-group-addon addon-red">@</span>
-                      <input type="text" class="form-control" placeholder="Username">
-                    </div>
-
-                    <div class="input-group margin-bottom-20">
-                      <input type="text" class="form-control">
-                      <span class="input-group-addon addon-greensea">.00</span>
-                    </div>
-
-                    <div class="input-group margin-bottom-20">
-                      <span class="input-group-addon">$</span>
-                      <input type="text" class="form-control">
-                      <span class="input-group-addon">.00</span>
-                    </div>
-
-                    <h4><strong>Sizing</strong></h4>
-
-                    <input class="form-control input-lg margin-bottom-20" type="text" placeholder=".input-lg">
-                    <input class="form-control margin-bottom-20" type="text" placeholder="Default input">
-                    <input class="form-control input-sm margin-bottom-20" type="text" placeholder=".input-sm">
-
-                    <div class="input-group input-group-lg margin-bottom-20">
-                      <span class="input-group-addon addon-blue">@</span>
-                      <input type="text" class="form-control" placeholder="Username">
-                    </div>
-
-                    <div class="input-group margin-bottom-20">
-                      <span class="input-group-addon addon-redbrown">@</span>
-                      <input type="text" class="form-control" placeholder="Username">
-                    </div>
-
-                    <div class="input-group input-group-sm margin-bottom-20">
-                      <span class="input-group-addon addon-slategray">@</span>
-                      <input type="text" class="form-control" placeholder="Username">
-                    </div>
-
-                    <h4><strong>Checkboxes</strong> and radio addons</h4>
-
-                    <div class="row">
-                      <div class="col-lg-6">
-                        <div class="input-group margin-bottom-20">
-                          <span class="input-group-addon">
-                            <input type="checkbox">
-                          </span>
-                          <input type="text" class="form-control">
-                        </div><!-- /input-group -->
-                      </div><!-- /.col-lg-6 -->
-                      <div class="col-lg-6">
-                        <div class="input-group margin-bottom-20">
-                          <span class="input-group-addon">
-                            <input type="radio">
-                          </span>
-                          <input type="text" class="form-control">
-                        </div><!-- /input-group -->
-                      </div><!-- /.col-lg-6 -->
-                    </div><!-- /.row -->
-
-                    <h4><strong>Button addons</strong></h4>
-
-                    <div class="row">
-                      <div class="col-lg-6">
-                        <div class="input-group input-group-lg margin-bottom-20">
-                          <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">Go!</button>
-                          </span>
-                          <input type="text" class="form-control">
-                        </div><!-- /input-group -->
-                      </div><!-- /.col-lg-6 -->
-                      <div class="col-lg-6">
-                        <div class="input-group input-group-lg margin-bottom-20">
-                          <input type="text" class="form-control">
-                          <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">Go!</button>
-                          </span>
-                        </div><!-- /input-group -->
-                      </div><!-- /.col-lg-6 -->
-                    </div><!-- /.row -->
-
-                    <div class="row">
-                      <div class="col-lg-6">
-                        <div class="input-group margin-bottom-20">
-                          <div class="input-group-btn">
-                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
-                            <ul class="dropdown-menu">
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Another action</a></li>
-                              <li><a href="#">Something else here</a></li>
-                              <li class="divider"></li>
-                              <li><a href="#">Separated link</a></li>
-                            </ul>
-                          </div><!-- /btn-group -->
-                          <input type="text" class="form-control">
-                        </div><!-- /input-group -->
-                      </div><!-- /.col-lg-6 -->
-                      <div class="col-lg-6">
-                        <div class="input-group margin-bottom-20">
-                          <input type="text" class="form-control">
-                          <div class="input-group-btn">
-                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
-                            <ul class="dropdown-menu pull-right">
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Another action</a></li>
-                              <li><a href="#">Something else here</a></li>
-                              <li class="divider"></li>
-                              <li><a href="#">Separated link</a></li>
-                            </ul>
-                          </div><!-- /btn-group -->
-                        </div><!-- /input-group -->
-                      </div><!-- /.col-lg-6 -->
-                    </div><!-- /.row -->
-
-                    <div class="row">
-                      <div class="col-lg-6">
-                        <div class="input-group input-group-sm margin-bottom-20">
-                          <div class="input-group-btn">
-                            <button type="button" class="btn btn-default" tabindex="-1">Action</button>
-                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" tabindex="-1">
-                              <span class="caret"></span>
-                              <span class="sr-only">Toggle Dropdown</span>
-                            </button>
-                            <ul class="dropdown-menu" role="menu">
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Another action</a></li>
-                              <li><a href="#">Something else here</a></li>
-                              <li class="divider"></li>
-                              <li><a href="#">Separated link</a></li>
-                            </ul>
-                          </div>
-                          <input type="text" class="form-control">
-                        </div>
-                      </div><!-- /.col-lg-6 -->
-                      <div class="col-lg-6">
-                        <div class="input-group input-group-sm margin-bottom-20">
-                          <input type="text" class="form-control">
-                          <div class="input-group-btn">
-                            <button type="button" class="btn btn-default" tabindex="-1">Action</button>
-                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" tabindex="-1">
-                              <span class="caret"></span>
-                              <span class="sr-only">Toggle Dropdown</span>
-                            </button>
-                            <ul class="dropdown-menu" role="menu">
-                              <li><a href="#">Action</a></li>
-                              <li><a href="#">Another action</a></li>
-                              <li><a href="#">Something else here</a></li>
-                              <li class="divider"></li>
-                              <li><a href="#">Separated link</a></li>
-                            </ul>
-                          </div>
-                        </div>
-                      </div><!-- /.col-lg-6 -->
-                    </div><!-- /.row -->
-
-                  </div>
-                  <!-- /tile body -->
-                
-
-
-                </section>
-                <!-- /tile -->              
-
-                
-                <!-- tile -->
-                <section class="tile color transparent-black">
-
 
                   <!-- tile header -->
                   <div class="tile-header">
-                    <h1><strong>Vertical</strong> Form</h1>
+                    <h1><strong>Morris.js</strong> Charts</h1>
                     <div class="controls">
                       <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
                       <a href="#" class="remove"><i class="fa fa-times"></i></a>
@@ -1146,41 +696,41 @@
                   <div class="tile-body">
                     
                     <div class="row">
+                      
+                      <div class="col-md-3">
+                        
+                        <h5><strong>Line</strong> chart</h5>
+                        <div id="line-example" style="height: 250px;"></div>
 
-                      <div class="form-group col-sm-6">
-                        <label for="exampleInputEmail">Email address</label>
-                        <input type="email" class="form-control" id="exampleInputEmail" placeholder="Enter email">
-                      </div>
-                      <div class="form-group col-sm-3">
-                        <label for="exampleInputPassword1">Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                      </div>
-                      <div class="form-group col-sm-3">
-                        <label for="exampleInputPassword2">Password repeat</label>
-                        <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password repeat">
                       </div>
 
-                    </div>
+                      <div class="col-md-3">
+                        
+                        <h5><strong>Line Area</strong> chart</h5>
+                        <div id="line-area-example" style="height: 250px;"></div>
+                        
 
-                    <div class="row">
+                      </div>
 
-                      <div class="form-group col-sm-4">
-                        <label for="exampleInputCity">City</label>
-                        <input type="text" class="form-control" id="exampleInputCity" placeholder="City">
+                      <div class="col-md-3">
+                        
+                        <h5><strong>Bar</strong> chart</h5>
+                        <div id="bar-example" style="height: 250px;"></div>
+
                       </div>
-                      <div class="form-group col-sm-4">
-                        <label for="exampleInputAddress">Address</label>
-                        <input type="text" class="form-control" id="exampleInputAddress" placeholder="Address">
-                      </div>
-                      <div class="form-group col-sm-4">
-                        <label for="exampleInputCountry">Country</label>
-                        <input type="text" class="form-control" id="exampleInputCountry" placeholder="Country">
+
+                      <div class="col-md-3">
+                        
+                        <h5 class="text-left"><strong>Donut</strong> chart</h5>
+                        <div id="donut-example" style="height: 250px;"></div>
+
                       </div>
 
                     </div>
 
                   </div>
                   <!-- /tile body -->
+                  
                 
 
 
@@ -1189,14 +739,14 @@
 
 
 
-
                 <!-- tile -->
-                <section class="tile color transparent-white">
+                <section class="tile color transparent-black textured">
+
 
 
                   <!-- tile header -->
                   <div class="tile-header">
-                    <h1><strong>Horizontal</strong> Form</h1>
+                    <h1><strong>Sparkline</strong> Charts</h1>
                     <div class="controls">
                       <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
                       <a href="#" class="remove"><i class="fa fa-times"></i></a>
@@ -1206,52 +756,27 @@
 
                   <!-- tile body -->
                   <div class="tile-body">
-
-                    <div class="form-horizontal">
-                                            
-                      <div class="row">
-
-                        <div class="form-group col-md-4">
-                          <label class="col-sm-4 control-label" for="exampleInputEmail2">Email address</label>
-                          <div class="col-sm-8">
-                            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Enter email">
-                          </div>
-                        </div>
-                        <div class="form-group col-md-4">
-                          <label class="col-sm-4 control-label" for="exampleInputPassword3">Password</label>
-                          <div class="col-sm-8">
-                            <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
-                          </div>
-                        </div>
-                        <div class="form-group col-md-4">
-                          <label class="col-sm-4 control-label" for="exampleInputPassword4">Password repeat</label>
-                          <div class="col-sm-8">
-                            <input type="password" class="form-control" id="exampleInputPassword4" placeholder="Password repeat">
-                          </div>
-                        </div>
+                    
+                    <div class="row">
+                      
+                      <div class="col-md-4">
+                        
+                        <h5><strong>Line</strong> chart</h5>
+                        <span id="sparkline01"></span>
 
                       </div>
 
-                      <div class="row">
+                      <div class="col-md-4">
+                        
+                        <h5><strong>Bar</strong> chart</h5>
+                        <span id="sparkline02" data-values="5,6,7,2,1,-4,-2,4,6,8" data-type="bar" data-height="250px"></span>
 
-                        <div class="form-group col-md-4">
-                          <label class="col-sm-4 control-label" for="exampleInputCity2">City</label>
-                          <div class="col-sm-8">
-                            <input type="text" class="form-control" id="exampleInputCity2" placeholder="City">
-                          </div>
-                        </div>
-                        <div class="form-group col-md-4">
-                          <label class="col-sm-4 control-label" for="exampleInputAddress2">Address</label>
-                          <div class="col-sm-8">
-                            <input type="text" class="form-control" id="exampleInputAddress2" placeholder="Address">
-                          </div>
-                        </div>
-                        <div class="form-group col-md-4">
-                          <label class="col-sm-4 control-label" for="exampleInputCountry2">Country</label>
-                          <div class="col-sm-8">
-                            <input type="text" class="form-control" id="exampleInputCountry2" placeholder="Country">
-                          </div>
-                        </div>
+                      </div>
+
+                      <div class="col-md-4 text-center">
+                        
+                        <h5 class="text-left"><strong>Pie</strong> chart</h5>
+                        <span id="sparkline03"></span>
 
                       </div>
 
@@ -1259,11 +784,13 @@
 
                   </div>
                   <!-- /tile body -->
+                  
                 
 
 
                 </section>
                 <!-- /tile -->
+
 
 
 
@@ -1271,9 +798,663 @@
               <!-- /col 12 -->
 
 
+              
             </div>
             <!-- /row -->
-          
+
+
+            <!-- row -->
+            <div class="row">
+              
+              
+
+              <!-- col 8 -->
+              <div class="col-md-8">
+
+
+
+                <!-- tile -->
+                <section class="tile color transparent-black">
+
+
+
+                  <!-- tile header -->
+                  <div class="tile-header">
+                    <h1><strong>Line</strong> Chart</h1>
+                    <div class="controls">
+                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
+                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
+                    </div>
+                  </div>
+                  <!-- /tile header -->
+
+                  <!-- tile body -->
+                  <div class="tile-body">
+                    
+                    <table id="line-chart" class="flot-chart" data-type="lines" data-width="100%" data-height="250px" data-font-color="rgba(255,255,255,.8)" data-tick-color="rgba(255,255,255,.3)" data-legend="hidden" data-tool-tip="show">
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th style="color : #cd97eb;">Sales</th>
+                          <th style="color : #a2d200;">Orders</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th>JAN</th>
+                          <td>254</td>
+                          <td>25</td>
+                        </tr>
+                        <tr>
+                          <th>FEB</th>
+                          <td>584</td>
+                          <td>345</td>
+                        </tr>
+                        <tr>
+                          <th>MAR</th>
+                          <td>85</td>
+                          <td>120</td>
+                        </tr>
+                        <tr>
+                          <th>APR</th>
+                          <td>428</td>
+                          <td>654</td>
+                        </tr>
+                        <tr>
+                          <th>MAY</th>
+                          <td>512</td>
+                          <td>971</td>
+                        </tr>
+                        <tr>
+                          <th>JUN</th>
+                          <td>0</td>
+                          <td>0</td>
+                        </tr>
+                        <tr>
+                          <th>JUL</th>
+                          <td>212</td>
+                          <td>356</td>
+                        </tr>
+                        <tr>
+                          <th>AUG</th>
+                          <td>684</td>
+                          <td>128</td>
+                        </tr>
+                        <tr>
+                          <th>SEP</th>
+                          <td>692</td>
+                          <td>163</td>
+                        </tr>
+                        <tr>
+                          <th>OCT</th>
+                          <td>987</td>
+                          <td>354</td>
+                        </tr>
+                        <tr>
+                          <th>NOV</th>
+                          <td>1865</td>
+                          <td>985</td>
+                        </tr>
+                        <tr>
+                          <th>DEC</th>
+                          <td>2158</td>
+                          <td>1214</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                  </div>
+                  <!-- /tile body -->
+                  
+                
+
+
+                </section>
+                <!-- /tile -->
+
+
+
+                <!-- tile -->
+                <section class="tile color transparent-black">
+
+
+
+                  <!-- tile header -->
+                  <div class="tile-header">
+                    <h1><strong>Bar</strong> Chart</h1>
+                    <div class="controls">
+                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
+                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
+                    </div>
+                  </div>
+                  <!-- /tile header -->
+
+                  <!-- tile body -->
+                  <div class="tile-body">
+                    
+                    <table id="bar-chart" class="flot-chart" data-type="bars" data-bar-width="0.8" data-tool-tip="show" data-width="100%" data-height="250px" data-font-color="rgba(255,255,255,.8)" data-legend="hidden" data-tick-color="rgba(255,255,255,.3)">
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th style="color : #fff;">Sales</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th>JAN</th>
+                          <td>254</td>
+                        </tr>
+                        <tr>
+                          <th>FEB</th>
+                          <td>584</td>
+                        </tr>
+                        <tr>
+                          <th>MAR</th>
+                          <td>85</td>
+                        </tr>
+                        <tr>
+                          <th>APR</th>
+                          <td>428</td>
+                        </tr>
+                        <tr>
+                          <th>MAY</th>
+                          <td>512</td>
+                        </tr>
+                        <tr>
+                          <th>JUN</th>
+                          <td>0</td>
+                        </tr>
+                        <tr>
+                          <th>JUL</th>
+                          <td>212</td>
+                        </tr>
+                        <tr>
+                          <th>AUG</th>
+                          <td>684</td>
+                        </tr>
+                        <tr>
+                          <th>SEP</th>
+                          <td>692</td>
+                        </tr>
+                        <tr>
+                          <th>OCT</th>
+                          <td>987</td>
+                        </tr>
+                        <tr>
+                          <th>NOV</th>
+                          <td>1865</td>
+                        </tr>
+                        <tr>
+                          <th>DEC</th>
+                          <td>2158</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                  </div>
+                  <!-- /tile body -->
+                  
+                
+
+
+                </section>
+                <!-- /tile -->
+
+
+
+                <!-- tile -->
+                <section class="tile color transparent-white">
+
+
+
+                  <!-- tile header -->
+                  <div class="tile-header">
+                    <h1><strong>Stacked</strong> Chart</h1>
+                    <div class="controls">
+                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
+                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
+                    </div>
+                  </div>
+                  <!-- /tile header -->
+
+                  <!-- tile body -->
+                  <div class="tile-body">
+                    
+                    <table id="stack-chart" class="flot-chart" data-type="bars" data-stack="true" data-tool-tip="show" data-width="100%" data-height="250px" data-font-color="rgba(255,255,255,.8)" data-legend="hidden" data-y-max="3500" data-tick-color="rgba(255,255,255,.3)">
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th style="color : #555;">Sales</th>
+                          <th style="color : #FF0066;">Orders</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th>JAN</th>
+                          <td>254</td>
+                          <td>125</td>
+                        </tr>
+                        <tr>
+                          <th>FEB</th>
+                          <td>584</td>
+                          <td>345</td>
+                        </tr>
+                        <tr>
+                          <th>MAR</th>
+                          <td>85</td>
+                          <td>120</td>
+                        </tr>
+                        <tr>
+                          <th>APR</th>
+                          <td>428</td>
+                          <td>654</td>
+                        </tr>
+                        <tr>
+                          <th>MAY</th>
+                          <td>512</td>
+                          <td>971</td>
+                        </tr>
+                        <tr>
+                          <th>JUN</th>
+                          <td>50</td>
+                          <td>120</td>
+                        </tr>
+                        <tr>
+                          <th>JUL</th>
+                          <td>212</td>
+                          <td>356</td>
+                        </tr>
+                        <tr>
+                          <th>AUG</th>
+                          <td>684</td>
+                          <td>128</td>
+                        </tr>
+                        <tr>
+                          <th>SEP</th>
+                          <td>692</td>
+                          <td>163</td>
+                        </tr>
+                        <tr>
+                          <th>OCT</th>
+                          <td>987</td>
+                          <td>354</td>
+                        </tr>
+                        <tr>
+                          <th>NOV</th>
+                          <td>1865</td>
+                          <td>985</td>
+                        </tr>
+                        <tr>
+                          <th>DEC</th>
+                          <td>2158</td>
+                          <td>1214</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                  </div>
+                  <!-- /tile body -->
+                  
+                
+
+
+                </section>
+                <!-- /tile -->
+
+
+
+                <!-- tile -->
+                <section class="tile color transparent-black textured">
+
+
+
+                  <!-- tile header -->
+                  <div class="tile-header">
+                    <h1><strong>Combined</strong> Chart</h1>
+                    <div class="controls">
+                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
+                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
+                    </div>
+                  </div>
+                  <!-- /tile header -->
+
+                  <!-- tile body -->
+                  <div class="tile-body">
+                    
+                    <div id="combined-chart" style="height: 250px;"></div>
+
+                  </div>
+                  <!-- /tile body -->
+                  
+                
+
+
+                </section>
+                <!-- /tile -->
+
+
+
+
+              </div>
+              <!-- /col 8 -->
+
+
+
+              <!-- col 4 -->
+              <div class="col-md-4">
+
+
+
+                <!-- tile -->
+                <section class="tile color transparent-white">
+
+
+
+                  <!-- tile header -->
+                  <div class="tile-header">
+                    <h1><strong>Pie</strong> Chart</h1>
+                    <div class="controls">
+                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
+                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
+                    </div>
+                  </div>
+                  <!-- /tile header -->
+
+                  <!-- tile body -->
+                  <div class="tile-body">
+                    
+                    <table id="pie-chart" class="flot-chart" data-type="pie" data-inner-radius="0.4" data-pie-label="show" data-width="100%" data-height="250px" data-tool-tip="false">
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th style="color : #a2d200;">Sales this month</th>
+                          <th style="color : #ffc100;">New Orders</th>                                       
+                          <th style="color : #ff4a43;">New Users</th>
+                          <th style="color : #22beef;">Visits this month</th>                                        
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th></th>
+                          <td>20</td>
+                          <td>50</td>
+                          <td>10</td>
+                          <td>20</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                  </div>
+                  <!-- /tile body -->
+                  
+                
+
+
+                </section>
+                <!-- /tile -->
+
+
+
+                <!-- tile -->
+                <section class="tile color transparent-white">
+
+
+
+                  <!-- tile header -->
+                  <div class="tile-header">
+                    <h1><strong>Pie</strong> Chart</h1>
+                    <span class="note">Custom Labels</span>
+                    <div class="controls">
+                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
+                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
+                    </div>
+                  </div>
+                  <!-- /tile header -->
+
+                  <!-- tile body -->
+                  <div class="tile-body">
+                    
+                    <table id="pie-chart02" class="flot-chart" data-type="pie" data-inner-radius="0.8" data-pie-label="hidden" data-width="100%" data-height="250px" data-tool-tip="show">
+                      <thead>
+                        <tr>
+                          <th></th>
+                          <th style="color : #a2d200;">System space</th>
+                          <th style="color : #ffc100;">Free Space</th>                                       
+                          <th style="color : #ff4a43;">Applications</th>
+                          <th style="color : #22beef;">Music</th>
+                          <th style="color : #16a085;">Pictures</th>
+                          <th style="color : #1693A5;">Movies</th>
+                          <th style="color : #555;">Other</th>                                  
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th></th>
+                          <td>2</td>
+                          <td>44</td>
+                          <td>11</td>
+                          <td>15</td>
+                          <td>10</td>
+                          <td>5</td>
+                          <td>13</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <div class="custom-labels" data-target-flot="#pie-chart02"></div>
+
+                  </div>
+                  <!-- /tile body -->
+                  
+                
+
+
+                </section>
+                <!-- /tile -->
+
+
+
+                <!-- tile -->
+                <section class="tile color transparent-black">
+
+
+
+                  <!-- tile header -->
+                  <div class="tile-header">
+                    <h1><strong>Real-time</strong> Chart</h1>
+                    <div class="controls">
+                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
+                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
+                    </div>
+                  </div>
+                  <!-- /tile header -->
+
+                  <!-- tile body -->
+                  <div class="tile-body">    
+                    
+                    <div id="realtime-chart" style="height: 180px;"></div>
+
+                  </div>
+                  <!-- /tile body -->
+                  
+                
+
+
+                </section>
+                <!-- /tile -->
+
+
+
+                <!-- tile -->
+                <section class="tile color transparent-black">
+
+
+
+                  <!-- tile header -->
+                  <div class="tile-header">
+                    <h1><strong>Rickshaw</strong> Chart</h1>
+                    <div class="controls">
+                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
+                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
+                    </div>
+                  </div>
+                  <!-- /tile header -->
+
+                  <!-- tile widget -->
+                  <div class="tile-widget">
+
+                    <div class="progress-list with-heading">
+                      <div class="details">
+                        <div class="title"><h2><i class="fa fa-hdd-o"></i> <span class="animate-number" data-value="394" data-animation-duration="1600">0</span> GB</h2></div>
+                      </div>
+                      <div class="status pull-right bg-transparent-black-1">
+                        <span class="animate-number" data-value="42" data-animation-duration="1500">0</span>%
+                      </div>
+                      <div class="clearfix"></div>
+                      <div class="progress progress-little progress-transparent-black" style="margin-bottom: 5px">
+                        <div class="progress-bar animate-progress-bar" data-percentage="42%"></div>
+                      </div>
+                    </div>  
+                    <p class="description"><strong>394GB</strong> used of <strong class="white-text">2,048GB</strong> on File Server</p>
+                  </div>
+                  <!-- /tile widget -->
+
+
+                  <!-- tile body -->
+                  <div class="tile-body paddingtop">
+                    <div id="rickshaw-chart"></div>
+                  </div>
+                  <!-- /tile body -->
+                  
+                
+
+
+                </section>
+                <!-- /tile -->
+
+
+
+
+              </div>
+              <!-- /col 4 -->
+
+
+
+            </div>
+            <!-- /row -->
+
+
+            <!-- row -->
+            <div class="row">
+
+              
+
+              <!-- col 6 -->
+              <div class="col-md-6">
+
+
+
+                <!-- tile -->
+                <section class="tile color transparent-black">
+
+
+
+                  <!-- tile header -->
+                  <div class="tile-header">
+                    <h1><strong>Easy Pie</strong> Charts</h1>
+                    <div class="controls">
+                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
+                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
+                    </div>
+                  </div>
+                  <!-- /tile header -->
+
+                  <!-- tile body -->
+                  <div class="tile-body text-center">
+                    
+                    <div class="easypiechart inline" style="width: 110px;height: 110px;line-height: 110px;">
+                      <div class="percentage" data-percent="30" data-size="110" data-track-color="rgba(0,0,0,.2)"><span>30</span>%</div>
+                      <div class="label">New users</div>
+                    </div>
+
+                    <div class="easypiechart inline" style="width: 110px;height: 110px;line-height: 110px;">
+                      <div class="percentage" data-percent="45" data-size="110" data-scale-color="false" data-bar-color="#16a085" data-track-color="rgba(0,0,0,.2)"><span>45</span>%</div>
+                      <div class="label">New orders</div>
+                    </div>
+
+                    <div class="easypiechart inline" style="width: 110px;height: 110px;line-height: 110px;">
+                      <div class="percentage" data-percent="8" data-size="110" data-line-cap="butt" data-line-width="8" data-track-color="rgba(0,0,0,.2)"><span>8</span>%</div>
+                      <div class="label">Sales</div>
+                    </div>
+
+                    <div class="easypiechart inline" style="width: 140px;height: 140px;line-height: 140px;">
+                      <div class="percentage" data-percent="24" data-size="140" data-line-cap="round" data-line-width="10" data-scale-color="false" data-bar-color="#A40778" data-track-color="rgba(0,0,0,.2)"><span>24</span>%</div>
+                      <div class="label">Visits</div>
+                    </div>
+
+                  </div>
+                  <!-- /tile body -->
+                  
+                
+
+
+                </section>
+                <!-- /tile -->
+
+
+
+              </div>
+              <!-- /col 6 -->
+
+
+
+              <!-- col 6 -->
+              <div class="col-md-6">
+
+
+
+                <!-- tile -->
+                <section class="tile color transparent-white">
+
+
+
+                  <!-- tile header -->
+                  <div class="tile-header">
+                    <h1><strong>JustGage</strong> Charts</h1>
+                    <div class="controls">
+                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
+                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
+                    </div>
+                  </div>
+                  <!-- /tile header -->
+
+                  <!-- tile body -->
+                  <div class="tile-body">
+                    
+                    <div class="tile-body text-center">
+                      <div id="gauge01" class="inline-block" style="width:180px; height: 160px;"></div>
+                      <div id="gauge02" class="inline-block" style="width:180px; height: 160px;"></div>
+                      <div id="gauge03" class="inline-block" style="width:180px; height: 160px;"></div>
+                      <div id="gauge04" class="inline-block" style="width:180px; height: 160px;"></div>
+                    </div>
+
+                  </div>
+                  <!-- /tile body -->
+                  
+                
+
+
+                </section>
+                <!-- /tile -->
+
+
+
+              </div>
+              <!-- /col 6 -->
+
+
+            </div>
+            <!-- /row -->
 
 
           </div>
@@ -1309,7 +1490,7 @@
                 <li class="online">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/ici-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/ici-avatar.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Ing. Imrich <strong>Kamarel</strong></h6>
@@ -1323,7 +1504,7 @@
                   <div class="media">
                     
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/arnold-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/arnold-avatar.jpg" alt>
                     </a>
                     <span class="badge badge-red unread">3</span>
 
@@ -1339,7 +1520,7 @@
                 <li class="online">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/peter-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/peter-avatar.jpg" alt>
 
                     </a>
                     <div class="media-body">
@@ -1353,7 +1534,7 @@
                 <li class="online">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/george-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/george-avatar.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">George <strong>McCain</strong></h6>
@@ -1366,7 +1547,7 @@
                 <li class="busy">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar1.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar1.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Lucius <strong>Cashmere</strong></h6>
@@ -1379,7 +1560,7 @@
                 <li class="busy">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar2.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar2.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Jesse <strong>Phoenix</strong></h6>
@@ -1398,7 +1579,7 @@
                 <li class="offline">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar4.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar4.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Dell <strong>MacApple</strong></h6>
@@ -1412,7 +1593,7 @@
                   <div class="media">
                     
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar5.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar5.jpg" alt>
                     </a>
 
                     <div class="media-body">
@@ -1427,7 +1608,7 @@
                 <li class="offline">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar6.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar6.jpg" alt>
 
                     </a>
                     <div class="media-body">
@@ -1441,7 +1622,7 @@
                 <li class="offline">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar7.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar7.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Bobby <strong>Socks</strong></h6>
@@ -1454,7 +1635,7 @@
                 <li class="offline">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar8.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar8.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Anna <strong>Opichia</strong></h6>
@@ -1476,7 +1657,7 @@
                 <li class="online">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/ici-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/ici-avatar.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Ing. Imrich <strong>Kamarel</strong></h6>
@@ -1490,7 +1671,7 @@
                   <div class="media">
                     
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/arnold-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/arnold-avatar.jpg" alt>
                     </a>
                     <span class="badge badge-red unread">3</span>
 
@@ -1506,7 +1687,7 @@
                 <li class="offline">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/peter-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/peter-avatar.jpg" alt>
 
                     </a>
                     <div class="media-body">
@@ -1529,7 +1710,7 @@
                   <div class="media">
                     
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/arnold-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/arnold-avatar.jpg" alt>
                     </a>
                     <span class="badge badge-red unread">3</span>
 
@@ -1545,7 +1726,7 @@
                 <li class="offline">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar8.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar8.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Anna <strong>Opichia</strong></h6>
@@ -1558,7 +1739,7 @@
                 <li class="busy">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar1.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar1.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Lucius <strong>Cashmere</strong></h6>
@@ -1571,7 +1752,7 @@
                 <li class="online">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/ici-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/ici-avatar.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Ing. Imrich <strong>Kamarel</strong></h6>
@@ -1707,121 +1888,557 @@
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="assets/js/jquery.js"></script>
+<script src="../assets/js/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="../assets/js/vendor/bootstrap/bootstrap.min.js"></script>
     <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css&skin=sons-of-obsidian"></script>
-    <script type="text/javascript" src="assets/js/vendor/mmenu/js/jquery.mmenu.min.js"></script>
-    <script type="text/javascript" src="assets/js/vendor/sparkline/jquery.sparkline.min.js"></script>
-    <script type="text/javascript" src="assets/js/vendor/nicescroll/jquery.nicescroll.min.js"></script>
-    <script type="text/javascript" src="assets/js/vendor/animate-numbers/jquery.animateNumbers.js"></script>
-    <script type="text/javascript" src="assets/js/vendor/videobackground/jquery.videobackground.js"></script>
-    <script type="text/javascript" src="assets/js/vendor/blockui/jquery.blockUI.js"></script>
+    <script type="text/javascript" src="../assets/js/vendor/mmenu/js/jquery.mmenu.min.js"></script>
+    <script type="text/javascript" src="../assets/js/vendor/sparkline/jquery.sparkline.min.js"></script>
+    <script type="text/javascript" src="../assets/js/vendor/nicescroll/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="../assets/js/vendor/animate-numbers/jquery.animateNumbers.js"></script>
+    <script type="text/javascript" src="../assets/js/vendor/videobackground/jquery.videobackground.js"></script>
+    <script type="text/javascript" src="../assets/js/vendor/blockui/jquery.blockUI.js"></script>
 
-    <script src="assets/js/vendor/summernote/summernote.min.js"></script>
+    <script src="../assets/js/vendor/flot/jquery.flot.min.js"></script>
+    <script src="../assets/js/vendor/flot/jquery.flot.categories.min.js"></script>
+    <script src="../assets/js/vendor/flot/jquery.flot.pie.min.js"></script>
+    <script src="../assets/js/vendor/flot/jquery.flot.stack.min.js"></script>
+    <script src="../assets/js/vendor/graphtable/jquery.graphTable-0.3.js"></script>
+    <script src="../assets/js/vendor/flot/jquery.flot.tooltip.min.js"></script>
 
-    <script src="assets/js/vendor/chosen/chosen.jquery.min.js"></script>
+    <script src="../assets/js/vendor/rickshaw/raphael-min.js"></script>
+    <script src="../assets/js/vendor/rickshaw/d3.v2.js"></script>
+    <script src="../assets/js/vendor/rickshaw/rickshaw.min.js"></script>
 
-    <script src="assets/js/vendor/momentjs/moment-with-langs.min.js"></script>
-    <script src="assets/js/vendor/datepicker/bootstrap-datetimepicker.min.js"></script>
+    <script src="../assets/js/vendor/morris/morris.min.js"></script>
 
-    <script src="assets/js/vendor/colorpicker/bootstrap-colorpicker.min.js"></script>
+    <script src="../assets/js/vendor/easypiechart/jquery.easypiechart.min.js"></script>
 
-    <script src="assets/js/vendor/colorpalette/bootstrap-colorpalette.js"></script>
+    <script src="../assets/js/vendor/justgage/justgage.js"></script>
 
-    <script src="assets/js/minimal.min.js"></script>
+    <script src="../assets/js/minimal.min.js"></script>
 
     <script>
-
-    //initialize file upload button function
-    $(document)
-      .on('change', '.btn-file :file', function() {
-        var input = $(this),
-        numFiles = input.get(0).files ? input.get(0).files.length : 1,
-        label = input.val().replace(/\\/g, '/').replace(/.*\//, '');
-        input.trigger('fileselect', [numFiles, label]);
-    });
-
-
     $(function(){
 
-      //load wysiwyg editor
-      $('#input06').summernote({
-        toolbar: [
-          //['style', ['style']], // no style button
-          ['style', ['bold', 'italic', 'underline', 'clear']],
-          ['fontsize', ['fontsize']],
-          ['color', ['color']],
-          ['para', ['ul', 'ol', 'paragraph']],
-          ['height', ['height']],
-          //['insert', ['picture', 'link']], // no insert buttons
-          //['table', ['table']], // no table button
-          //['help', ['help']] //no help button
+      // Morris line chart
+
+      Morris.Line({
+        element: 'line-example',
+        data: [
+          { y: '2009', a: 15,  b: 5 },
+          { y: '2010', a: 20,  b: 10 },
+          { y: '2011', a: 35,  b: 25 },
+          { y: '2012', a: 40, b: 30 }
         ],
-        height: 137   //set editable area's height
+        xkey: 'y',
+        ykeys: ['a', 'b'],
+        labels: ['Series A', 'Series B'],
+        lineColors:['#16a085','#FF0066']
       });
 
-      //chosen select input
-      $(".chosen-select").chosen({disable_search_threshold: 10});
+      // Morris line area chart
 
-      //initialize datepicker
-      $('#datepicker').datetimepicker({
-        icons: {
-          time: "fa fa-clock-o",
-          date: "fa fa-calendar",
-          up: "fa fa-arrow-up",
-          down: "fa fa-arrow-down"
+      Morris.Area({
+        element: 'line-area-example',
+        data: [
+          { y: '2009', a: 10,  b: 3 },
+          { y: '2010', a: 14,  b: 5 },
+          { y: '2011', a: 8,  b: 2 },
+          { y: '2012', a: 20, b: 15 }
+        ],
+        xkey: 'y',
+        ykeys: ['a', 'b'],
+        labels: ['Series A', 'Series B'],
+        lineColors:['#a2d200','#d2d2d2'],
+        lineWidth:'0',
+        grid: false,
+        fillOpacity:'0.5'
+      });
+
+      // Morris bar chart
+
+      Morris.Bar({
+        element: 'bar-example',
+        data: [
+          { y: '2009', a: 75,  b: 65 },
+          { y: '2010', a: 50,  b: 40 },
+          { y: '2011', a: 75,  b: 65 },
+          { y: '2012', a: 100, b: 90 }
+        ],
+        xkey: 'y',
+        ykeys: ['a', 'b'],
+        labels: ['Series A', 'Series B'],
+        barColors:['#ff4a43','#1693A5']
+      });
+
+      // Morris donut chart
+
+      Morris.Donut({
+        element: 'donut-example',
+        data: [
+          {label: "Download Sales", value: 12},
+          {label: "In-Store Sales", value: 30},
+          {label: "Mail-Order Sales", value: 20}
+        ],
+        colors: ['#00a3d8', '#2fbbe8', '#72cae7']
+      });
+
+      // Sparkline Line Chart
+      $('#sparkline01').sparkline([15,16,18,17,16,18,25,26,23], {
+        type: 'line', 
+        width: '100%',
+        height:'250px',
+        fillColor: 'rgba(34, 190, 239, .3)',
+        lineColor: 'rgba(34, 190, 239, .5)',
+        lineWidth: 2,
+        spotRadius: 5,
+        valueSpots:[5,6,8,7,6,8,5,4,7],
+        minSpotColor: '#eaf9fe',
+        maxSpotColor: '#00a3d8',
+        highlightSpotColor: '#00a3d8',
+        highlightLineColor: '#bec6ca',
+        normalRangeMin: 0
+      });
+      $('#sparkline01').sparkline([1,2,1,3,1,2,4,1,3], {
+        type: 'line', 
+        composite: true,
+        width: '100%',
+        height:'250px',
+        fillColor: 'rgba(255, 74, 67, .6)',
+        lineColor: 'rgba(255, 74, 67, .8)',
+        lineWidth: 2,
+        minSpotColor: '#ffeced',
+        maxSpotColor: '#d90200',
+        highlightSpotColor: '#d90200',
+        highlightLineColor: '#bec6ca',
+        spotRadius: 5,
+        valueSpots:[2,3,4,3,1,2,4,1,3],
+        normalRangeMin: 0
+      }); 
+
+      // Sparkline Bar Chart
+
+      var $el = $('#sparkline02');
+
+      var values = $el.data('values').split(',').map(parseFloat);
+      var type = $el.data('type') || 'line' ;
+      var height = $el.data('height') || 'auto';
+
+      var parentWidth = $el.parent().width();
+      var valueCount = values.length;
+      var barSpacing = 5;
+
+      var barWidth = Math.round((parentWidth - ( valueCount - 1 ) * barSpacing ) / valueCount);
+
+      $el.sparkline(values, {
+        width:'100%',
+        type: type,
+        height: height,
+        barWidth: barWidth, 
+        barSpacing: barSpacing,
+        barColor: '#16a085',
+        negBarColor: '#FF0066'
+      });
+
+      // Sparkline Pie Chart
+
+      $('#sparkline03').sparkline([5,10,20,15 ], {
+        type: 'pie',
+        width: 'auto',
+        height: '250px',
+        sliceColors: ['#22beef','#a2d200','#ffc100','#ff4a43']
+      });
+
+      // Line Chart
+
+      var bars = false;
+      var lines = true;
+      var pie = false;
+
+      var initializeFlot = function(){
+        
+        var el = $('table.flot-chart');
+
+        el.each(function(){
+          var data = $(this).data();
+          var colors = [];
+          var gridColor = data.tickColor || 'rgba(0,0,0,.1)';
+
+          $(this).find('thead th:not(:first)').each(function() {
+            colors.push($(this).css('color'));
+          });
+
+          if(data.type){
+            bars = data.type.indexOf('bars') != -1;
+            lines = data.type.indexOf('lines') != -1;
+            pie = data.type.indexOf('pie') != -1;
+          }
+
+          $(this).graphTable({
+            series: 'columns',
+            position: 'replace',
+            colors: colors,
+            width: data.width,
+            height: data.height
+          },
+          {
+            series: { 
+              stack: data.stack,
+              pie: {
+                show: pie,
+                innerRadius: data.innerRadius || 0,
+                label:{ 
+                  show: data.pieLabel=='show' ? true:false
+                }
+              },
+              bars: {
+                show: bars,
+                barWidth: data.barWidth || 0.5,
+                fill: data.fill || 1,
+                align: 'center'
+              },
+              lines: { 
+                show: lines,
+                fill: 0.1,
+                lineWidth: 3
+              },
+              shadowSize: 0,
+              points: {
+                radius: 4
+              }
+            },
+            xaxis: {
+              mode: 'categories',
+              tickLength: 0,
+              font :{
+                lineHeight: 24,
+                weight: '300',
+                color: data.fontColor,
+                size: 14
+              } 
+            },
+            yaxis: { 
+              tickColor: gridColor,
+              tickFormatter: function number(x) {  var num; if (x >= 1000) { num=(x/1000)+'k'; }else{ num=x; } return num; },
+              max: data.yMax,
+              font :{
+                lineHeight: 13,
+                weight: '300',
+                color: data.fontColor
+              }
+            },  
+            grid: { 
+              borderWidth: {
+                top: 0,
+                right: 0,
+                bottom: 1,
+                left: 1
+              },
+              borderColor: gridColor,
+              margin: 13,
+              minBorderMargin:0,              
+              labelMargin:20,
+              hoverable: true,
+              clickable: true,
+              mouseActiveRadius:6
+            },
+            legend: { show: data.legend=='show' ? true:false },
+            tooltip: data.toolTip=='show' ? true:false,
+            tooltipOpts: { content: (pie ? '%p.0%, %s':'<b>%s</b> :  %y') }
+          });
+        });
+
+        // tooltips showing
+        $('.flot-graph').bind("plothover", function (event, pos, item) {
+          if (item) {
+            var x = item.datapoint[0],
+                y = item.datapoint[1];
+            $("#flotTip").css({top: item.pageY-30});
+          } else {
+            $("#flotTip").hide();
+          }
+        });
+        
+      };   
+
+      // Pie Chart custom labels
+
+      $('.custom-labels').each(function () {
+        var el= $(this);
+        var data = el.data();
+        var colors = [];
+        var info = [];
+        var item = '';
+
+        $(data.targetFlot).find('thead th:not(:first)').each(function() {
+          colors.push($(this).css('color'));
+          info.push($(this).text());
+        });
+
+        for(var i=0;i<info.length;i++){
+          item += '<li><span class="badge badge-outline" style="border-color:' + colors[i] + '"></span>' + info[i] + ' ' + '<small>' + $(data.targetFlot).find("tbody td").eq(i).text() + '%' + '</small>' + '</li>';
         }
-      });
 
-      $("#datepicker").on("dp.show",function (e) {
-        var newtop = $('.bootstrap-datetimepicker-widget').position().top - 45;      
-        $('.bootstrap-datetimepicker-widget').css('top', newtop + 'px');
-      });
-
-      //initialize colorpicker
-      $('#colorpicker').colorpicker();
-
-      $('#colorpicker').colorpicker().on('showPicker', function(e){
-        var newtop = $('.dropdown-menu.colorpicker.colorpicker-visible').position().top - 45;      
-        $('.dropdown-menu.colorpicker.colorpicker-visible').css('top', newtop + 'px');
-      });
-
-      //initialize colorpicker RGB
-      $('#colorpicker-rgb').colorpicker({
-        format: 'rgb'
-      });
-
-      $('#colorpicker-rgb').colorpicker().on('showPicker', function(e){
-        var newtop = $('.dropdown-menu.colorpicker.colorpicker-visible').position().top - 45;      
-        $('.dropdown-menu.colorpicker.colorpicker-visible').css('top', newtop + 'px');
-      });
-
-      //initialize file upload button
-      $('.btn-file :file').on('fileselect', function(event, numFiles, label) {
+        el.append('<ul class="nolisttypes chart-legend">'+item+'</ul>');
         
-        var input = $(this).parents('.input-group').find(':text'),
-            log = numFiles > 1 ? numFiles + ' files selected' : label;
+      }); 
 
-            console.log(log);
-        
-        if( input.length ) {
-          input.val(log);
+      initializeFlot();
+
+      // Combined flot chart 
+      var d1 = [['JAN', 150], ['FEB', 181], ['Mar', 252], ['APR', 356],['MAY', 851], ['JUN', 1589], ['JUL', 951], ['AUG', 651],['SEP', 591], ['OCT', 382], ['NOV', 951], ['DEC', 741]];
+      var d2 = [['JAN', 145], ['FEB', 178], ['Mar', 200], ['APR', 350],['MAY', 212], ['JUN', 486], ['JUL', 841], ['AUG', 546],['SEP', 571], ['OCT', 300], ['NOV', 854], ['DEC', 685]];
+      $.plot('#combined-chart', [
+      {
+        label: 'Last Year',
+        data: d1,
+        bars: { 
+          show: true, 
+          barWidth:  0.5, 
+          fill:  1, 
+          align: 'center'  
+        }
+      },
+      {
+        label: 'This Year',
+        data: d2,
+        lines: { 
+          show: true,
+          lineWidth: 3
+        }
+      }],
+      {
+        colors: ['#418bca' ,'#22beef'],
+        xaxis: { 
+          mode: 'categories',
+          tickLength: 0,
+          font :{
+            lineHeight: 24,
+            weight: '300',
+            color: 'rgba(255,255,255,.8)',
+            size: 14
+          } 
+        },
+        yaxis: { 
+          tickColor: 'rgba(255,255,255,.2)' ,
+          tickFormatter: function number(x) {  var num; if (x >= 1000) { num=(x/1000)+'k'; }else{ num=x; } return num; },
+          font :{
+            lineHeight: 13,
+            weight: '300',
+            color: 'rgba(255,255,255,.8)'
+          }
+        },  
+        grid: { 
+          borderWidth: {
+            top: 0,
+            right: 0, 
+            bottom: 1, 
+            left: 1
+          },
+          margin: 13,
+          labelMargin:20,
+          hoverable: true,
+          clickable: true,
+          mouseActiveRadius:6,
+          color : 'rgba(255,255,255,.2)' 
+        },
+        legend: { show: true },
+        tooltip: true
+      });
+
+      $("#combined-chart div.legend >div").css("background", "transparent");
+      $("#combined-chart div.legend table").css("color", "rgba(255,255,255,.8)");
+
+      // tooltips showing
+      $('#combined-chart').bind("plothover", function (event, pos, item) {
+        if (item) {
+          var x = item.datapoint[0],
+              y = item.datapoint[1];
+          $("#flotTip").css({top: item.pageY-30});
         } else {
-          if( log ) alert(log);
+          $("#flotTip").hide();
         }
-        
       });
 
-      // Initialize colorpalette
-      $('#event-colorpalette').colorPalette({ 
-        colors:[['#428bca', '#5cb85c', '#5bc0de', '#f0ad4e' ,'#d9534f', '#ff4a43', '#22beef', '#a2d200', '#ffc100', '#cd97eb', '#16a085', '#FF0066', '#A40778', '#1693A5']] 
-      }).on('selectColor', function(e) {
-        var data = $(this).data();
+      // Real-Time flot chart
+      var realTimeData = [];
+      var totalPoints = 30;
+      var updateInterval = 3000;
 
-        $(data.returnColor).val(e.color);
-        $(this).parents(".input-group").css("border-bottom-color", e.color );
+      function getData() {
+        realTimeData.shift();
+
+        while (realTimeData.length<totalPoints) {     
+          var y = Math.random() * 100;
+          var temp = [];
+          realTimeData.push(y);
+        }
+
+        var temp = [];
+        for (var i = 0; i<realTimeData.length; ++i) {
+          temp.push([i, realTimeData[i]])
+        }
+        return temp;
+
+      }
+
+      var plot = $.plot('#realtime-chart', [getData()], 
+      {
+        colors: ['#a2d200'],
+        series: {
+          lines: { 
+            show: true,
+            fill: 0.1 
+          },
+          shadowSize: 0
+        },
+        yaxis: { 
+          tickColor: 'rgba(255,255,255,.2)',
+          min: 0,
+          max: 100,
+          font :{
+            color: 'rgba(255,255,255,.8)'
+          }
+        },  
+        grid: { 
+          borderWidth: {
+            top: 0,
+            right: 0,
+            bottom: 1,
+            left: 1
+          },
+          color :  'rgba(255,255,255,.2)' 
+        },
+        tooltip: false,
+        xaxis: { 
+          show: false
+        }
       });
+
+      function update() {
+        plot.setData([getData()]);
+        plot.draw();
+        setTimeout(update, updateInterval);
+      };
+
+      update(); 
+
+      //server load rickshaw chart
+      var graph;
+
+      var seriesData = [ [], []];
+      var random = new Rickshaw.Fixtures.RandomData(50);
+
+      for (var i = 0; i < 50; i++) {
+        random.addData(seriesData);
+      }
+
+      graph = new Rickshaw.Graph( {
+        element: document.querySelector("#rickshaw-chart"),
+        height: 150,
+        renderer: 'area',
+        series: [
+          {
+            data: seriesData[0],
+            color: '#6e6e6e',
+            name:'File Server'
+          },{
+            data: seriesData[1],
+            color: '#fff',
+            name:'Mail Server'
+          }
+        ]
+      } );
+
+      var hoverDetail = new Rickshaw.Graph.HoverDetail( {
+        graph: graph,
+      });
+
+      setInterval( function() {
+        random.removeData(seriesData);
+        random.addData(seriesData);
+        graph.update();
+
+      },1000);
+
+
+      // Generate easy-pie charts
+      var charts = $('.easypiechart .percentage');
+      charts.easyPieChart({
+        animate: 2000,
+        onStart: function(value) {
+          $(this.el).find('span').animateNumbers(Math.floor(100*Math.random()));
+        }
+      });
+
+      //update instance every 5 sec
+      window.setInterval(function() {
+
+        // refresh easy pie chart
+        charts.each(function() {
+          $(this).data('easyPieChart').update(Math.floor(100*Math.random()));
+        });
+
+      }, 5000);
+
+      // Generate justGage charts
+
+      var g01 = new JustGage({
+        id: "gauge01", 
+        value: 67, 
+        min: 0,
+        max: 100,
+        title: "New Users",
+        titleFontColor : "rgba(255,255,255,.6)",
+        valueFontColor:  "rgba(255,255,255,.8)"
+      }); 
+
+      var g02 = new JustGage({
+        id: "gauge02",
+        value : 30,
+        title : "Custom Width",
+        min: 0,
+        max: 100,
+        gaugeWidthScale: .3,
+        titleFontColor : "rgba(255,255,255,.6)",
+        valueFontColor:  "rgba(255,255,255,.8)"
+      }); 
+
+      var g03 = new JustGage({
+        id: "gauge03",
+        value : 92,
+        title : "Animation",
+        min: 0,
+        max: 100,
+        startAnimationType: 'bounce',
+        refreshAnimationType: 'bounce',
+        refreshAnimationTime: 2500,
+        titleFontColor : "rgba(255,255,255,.6)",
+        valueFontColor:  "rgba(255,255,255,.8)"
+      });
+
+      var g04 = new JustGage({
+        id: "gauge04",
+        value : 72,
+        title : "Donut Style",
+        min: 0,
+        max: 100,
+        donut: true,
+        titleFontColor : "rgba(255,255,255,.6)",
+        valueFontColor:  "rgba(255,255,255,.8)"
+      }); 
+
+      //update instance every 5 sec
+      window.setInterval(function() {
+
+        // refresh justGage charts
+        g01.refresh(getRandomInt(0, 100));
+        g02.refresh(getRandomInt(0, 100));
+        g03.refresh(getRandomInt(0, 100));
+        g04.refresh(getRandomInt(0, 100));
+
+      }, 5000);
       
     })
       

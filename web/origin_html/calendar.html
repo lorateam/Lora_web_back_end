@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Minimal 1.0 - Tiles</title>
+    <title>Minimal 1.0 - Calendar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
 
     <link rel="icon" type="image/ico" href="http://tattek.com/minimal/assets/images/favicon.ico" />
     <!-- Bootstrap -->
-    <link href="assets/css/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/vendor/animate/animate.css">
-    <link type="text/css" rel="stylesheet" media="all" href="assets/js/vendor/mmenu/css/jquery.mmenu.all.css" />
-    <link rel="stylesheet" href="assets/js/vendor/videobackground/css/jquery.videobackground.css">
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap-checkbox.css">
+    <link rel="stylesheet" href="../assets/css/vendor/animate/animate.css">
+    <link type="text/css" rel="stylesheet" media="all" href="../assets/js/vendor/mmenu/css/jquery.mmenu.all.css" />
+    <link rel="stylesheet" href="../assets/js/vendor/videobackground/css/jquery.videobackground.css">
+    <link rel="stylesheet" href="../assets/css/vendor/bootstrap-checkbox.css">
 
-    <link href="assets/css/minimal.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/js/vendor/fullcalendar/fullcalendar.css">
+    <link rel="stylesheet" href="../assets/js/vendor/colorpalette/bootstrap-colorpalette.css">
+
+    <link href="../assets/css/minimal.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -26,6 +29,8 @@
   <body class="bg-1">
 
  
+
+
     <!-- Preloader -->
     <div class="mask"><div id="loader"></div></div>
     <!--/Preloader -->
@@ -173,7 +178,7 @@
                   <li>
                     <a class="cyan" href="#">
                       <div class="profile-photo">
-                        <img src="assets/images/ici-avatar.jpg" alt />
+                        <img src="../assets/images/ici-avatar.jpg" alt />
                       </div>
                       <div class="message-info">
                         <span class="sender">Ing. Imrich Kamarel</span>
@@ -186,7 +191,7 @@
                   <li>
                     <a class="green" href="#">
                       <div class="profile-photo">
-                        <img src="assets/images/arnold-avatar.jpg" alt />
+                        <img src="../assets/images/arnold-avatar.jpg" alt />
                       </div>
                       <div class="message-info">
                         <span class="sender">Arnold Karlsberg</span>
@@ -199,7 +204,7 @@
                   <li>
                     <a href="#">
                       <div class="profile-photo">
-                        <img src="assets/images/profile-photo.jpg" alt />
+                        <img src="../assets/images/profile-photo.jpg" alt />
                       </div>
                       <div class="message-info">
                         <span class="sender">John Douey</span>
@@ -212,7 +217,7 @@
                   <li>
                     <a class="red" href="#">
                       <div class="profile-photo">
-                        <img src="assets/images/peter-avatar.jpg" alt />
+                        <img src="../assets/images/peter-avatar.jpg" alt />
                       </div>
                       <div class="message-info">
                         <span class="sender">Peter Kay</span>
@@ -225,7 +230,7 @@
                   <li>
                     <a class="orange" href="#">
                       <div class="profile-photo">
-                        <img src="assets/images/george-avatar.jpg" alt />
+                        <img src="../assets/images/george-avatar.jpg" alt />
                       </div>
                       <div class="message-info">
                         <span class="sender">George McCain</span>
@@ -298,7 +303,7 @@
 
               <li class="dropdown divided user" id="current-user">
                 <div class="profile-photo">
-                  <img src="assets/images/profile-photo.jpg" alt />
+                  <img src="../assets/images/profile-photo.jpg" alt />
                 </div>
                 <a class="dropdown-toggle options" data-toggle="dropdown" href="#">
                   John Douey <i class="fa fa-caret-down"></i>
@@ -407,7 +412,7 @@
                     </ul>
                   </li>
 
-                  <li class="dropdown open active">
+                  <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                       <i class="fa fa-pencil"></i> Interface <b class="fa fa-plus dropdown-plus"></b>
                     </a>
@@ -422,7 +427,7 @@
                           <i class="fa fa-caret-right"></i> Typography
                         </a>
                       </li>
-                      <li class="active">
+                      <li>
                         <a href="tiles.html">
                           <i class="fa fa-caret-right"></i> Tiles
                         </a>
@@ -459,7 +464,7 @@
                     </ul>
                   </li>
 
-                  <li class="dropdown">
+                  <li class="dropdown open active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                       <i class="fa fa-desktop"></i> Example Pages <b class="fa fa-plus dropdown-plus"></b>
                       <span class="label label-greensea">mails</span>
@@ -470,7 +475,7 @@
                           <i class="fa fa-caret-right"></i> Login Page
                         </a>
                       </li>
-                      <li>
+                      <li class="active">
                         <a href="calendar.html">
                           <i class="fa fa-caret-right"></i> Calendar
                         </a>
@@ -636,15 +641,15 @@
           <div class="pageheader">
             
 
-            <h2><i class="fa fa-th" style="line-height: 50px;padding-left: 2px;"></i> Tiles <span>// Place subtitle here...</span></h2>
+            <h2><i class="fa fa-calendar-o" style="line-height: 48px;padding-left: 0;"></i> Calendar <span>// Place subtitle here...</span></h2>
             
 
             <div class="breadcrumbs">
               <ol class="breadcrumb">
                 <li>You are here</li>
                 <li><a href="index.html">Minimal</a></li>
-                <li><a href="ui-elements.html">Interface</a></li>
-                <li class="active">Tiles</li>
+                <li><a href="#">Example Pages</a></li>
+                <li class="active">Calendar</li>
               </ol>
             </div>
 
@@ -658,573 +663,123 @@
 
 
           <!-- content main container -->
-          <div class="main">
+          <div class="main as-table">        
 
 
 
-
-            <!-- row -->
-            <div class="row">
-
-
-
-              <!-- col 4 -->
-              <div class="col-md-4">
-              
-
+            <div class="col-md-4 tile color transparent-black rounded-left-corners">
+              <div class="tile-body">
                 
-                <!-- tile -->
-                <section class="tile">
+                <div class="cal-options">
+                  
+                  <div class="date-info">
+                    <h2 class="text-center">
+                      <i class="fa fa-angle-left pull-left" id="cal-prev"></i>
+                      <span id="cal-current-date"></span>
+                      <i class="fa fa-angle-right pull-right" id="cal-next"></i>
+                    </h2>
+                    <h3 class="large-thin text-center" id="cal-current-day"></h3>
+                  </div>
 
-
-                  <!-- tile header -->
-                  <div class="tile-header">
-                    <h1><strong>Basic</strong> Tile</h1>
-                    <div class="controls">
-                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
-                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
+                  <div id="event-delete"><i class="fa fa-trash-o fa-4x"></i></div>                  
+                  
+                  <div id="external-events" class="events-wrapper">
+                    
+                    <h4 class="thin events">
+                      <strong>Draggable</strong> Events
+                      <a class="new-event pull-right" data-toggle="modal" href="#cal-new-event"><i class="fa fa-plus"></i></a>
+                    </h4>
+                    <div class="external-event" data-color="red">The Custom Event #1</div>
+                    <div class="external-event" data-color="cyan">The Custom Event #2</div>
+                    <div class="external-event" data-color="orange">The Custom Event #3</div>
+                    <div class="external-event" data-color="amethyst">The Custom Event #4</div>
+                    <div class="external-event" data-color="drank">The Custom Event #5</div>
+                    <div class="external-event">The Custom Event #6</div>
+            
+                    <div class="checkbox check-transparent">
+                      <input type="checkbox" value="1" id="drop-remove">
+                       <label for="drop-remove">Remove after drop</label>
                     </div>
+                   
                   </div>
-                  <!-- /tile header -->
 
-                  <!-- tile widget -->
-                  <div class="tile-widget">
-
-                    <p>This is tile widget area.</p>
-
-                  </div>
-                  <!-- /tile widget -->
-
-                  <!-- tile body -->
-                  <div class="tile-body">
-                    
-                    <p>This is tile body area.</p>
-
-                  </div>
-                  <!-- /tile body -->
-
-                   <!-- tile footer -->
-                  <div class="tile-footer">
-                    
-                    <p>This is tile footer area.</p>
-
-                  </div>
-                  <!-- /tile footer -->
-                
-
-                </section>
-                <!-- /tile -->
-
-
-                <!-- tile -->
-                <section class="tile color redbrown">
-
-
-                  <!-- tile header -->
-                  <div class="tile-header">
-                    <h1><strong>Colored Tile</strong> Redbrown</h1>
-                    <div class="controls">
-                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
-                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
-                    </div>
-                  </div>
-                  <!-- /tile header -->
-
-                  <!-- tile widget -->
-                  <div class="tile-widget">
-
-                    <p>This is tile widget area.</p>
-
-                  </div>
-                  <!-- /tile widget -->
-
-                  <!-- tile body -->
-                  <div class="tile-body">
-                    
-                    <p>This is tile body area.</p>
-
-                  </div>
-                  <!-- /tile body -->
-
-                   <!-- tile footer -->
-                  <div class="tile-footer">
-                    
-                    <p>This is tile footer area.</p>
-
-                  </div>
-                  <!-- /tile footer -->
-                
-
-                </section>
-                <!-- /tile -->
-
-
-
-                <!-- tile -->
-                <section class="tile">
-
-
-                  <!-- tile header -->
-                  <div class="tile-header color slategray rounded-top-corners">
-                    <h1><strong>Colored Header</strong> Slategray</h1>
-                    <div class="controls">
-                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
-                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
-                    </div>
-                  </div>
-                  <!-- /tile header -->
-
-                  <!-- tile widget -->
-                  <div class="tile-widget color drank">
-
-                    <p>This is colored .drank tile widget area.</p>
-
-                  </div>
-                  <!-- /tile widget -->
-
-                  <!-- tile body -->
-                  <div class="tile-body color dutch">
-                    
-                    <p>This is colored .dutch tile body area.</p>
-
-                  </div>
-                  <!-- /tile body -->
-
-                   <!-- tile footer -->
-                  <div class="tile-footer color blue rounded-bottom-corners">
-                    
-                    <p>This is colored .blue tile footer area.</p>
-
-                  </div>
-                  <!-- /tile footer -->
-                
-
-                </section>
-                <!-- /tile -->
-
-
-                <!-- tile -->
-                <section class="tile transparent">
-
-
-                  <!-- tile header -->
-                  <div class="tile-header color cyan text-center rounded-top-corners">               
-                    <button class="btn pull-left btn-black-transparent" type="button"><i class="fa fa-caret-square-o-down"></i></button>
-                    <h1 class="small-uppercase"><strong>Heading</strong> with button</h1>
-                    <div class="controls">
-                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
-                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
-                    </div>
-                  </div>
-                  <!-- /tile header -->
-
-                  <!-- tile widget -->
-                  <div class="tile-widget color transparent-black">
-
-                    <p>This is tile widget area.</p>
-
-                  </div>
-                  <!-- /tile widget -->
-
-                  <!-- tile body -->
-                  <div class="tile-body color transparent-black">
-                    
-                    <p>This is tile body area.</p>
-
-                  </div>
-                  <!-- /tile body -->
-
-                   <!-- tile footer -->
-                  <div class="tile-footer color transparent-black rounded-bottom-corners">
-                    
-                    <p>This is tile footer area.</p>
-
-                  </div>
-                  <!-- /tile footer -->
-                
-
-                </section>
-                <!-- /tile -->
-
-
+                </div>
 
               </div>
-              <!-- /col 4 -->
-
-
-              <!-- col 4 -->
-              <div class="col-md-4">
-              
-
-                
-                <!-- tile -->
-                <section class="tile color transparent-black">
-
-
-                  <!-- tile header -->
-                  <div class="tile-header">
-                    <h1><strong>Transparent Black</strong> Tile</h1>
-                    <div class="controls">
-                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
-                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
-                    </div>
-                  </div>
-                  <!-- /tile header -->
-
-                  <!-- tile widget -->
-                  <div class="tile-widget">
-
-                    <p>This is tile widget area.</p>
-
-                  </div>
-                  <!-- /tile widget -->
-
-                  <!-- tile body -->
-                  <div class="tile-body">
-                    
-                    <p>This is tile body area.</p>
-
-                  </div>
-                  <!-- /tile body -->
-
-                   <!-- tile footer -->
-                  <div class="tile-footer">
-                    
-                    <p>This is tile footer area.</p>
-
-                  </div>
-                  <!-- /tile footer -->
-                
-
-                </section>
-                <!-- /tile -->
-
-
-                <!-- tile -->
-                <section class="tile color blue">
-
-
-                  <!-- tile header -->
-                  <div class="tile-header">
-                    <h1><strong>Colored Tile</strong> Blue</h1>
-                    <div class="controls">
-                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
-                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
-                    </div>
-                  </div>
-                  <!-- /tile header -->
-
-                  <!-- tile widget -->
-                  <div class="tile-widget">
-
-                    <p>This is tile widget area.</p>
-
-                  </div>
-                  <!-- /tile widget -->
-
-                  <!-- tile body -->
-                  <div class="tile-body">
-                    
-                    <p>This is tile body area.</p>
-
-                  </div>
-                  <!-- /tile body -->
-
-                   <!-- tile footer -->
-                  <div class="tile-footer">
-                    
-                    <p>This is tile footer area.</p>
-
-                  </div>
-                  <!-- /tile footer -->
-                
-
-                </section>
-                <!-- /tile -->
-
-
-                <!-- tile -->
-                <section class="tile color transparent-black textured">
-
-
-                  <!-- tile header -->
-                  <div class="tile-header">
-                    <h1><strong>Transparent Textured</strong> Tile</h1>
-                    <div class="controls">
-                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
-                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
-                    </div>
-                  </div>
-                  <!-- /tile header -->
-
-                  <!-- tile widget -->
-                  <div class="tile-widget">
-
-                    <p>This is tile widget area.</p>
-
-                  </div>
-                  <!-- /tile widget -->
-
-                  <!-- tile body -->
-                  <div class="tile-body">
-                    
-                    <p>This is tile body area.</p>
-
-                  </div>
-                  <!-- /tile body -->
-
-                   <!-- tile footer -->
-                  <div class="tile-footer">
-                    
-                    <p>This is tile footer area.</p>
-
-                  </div>
-                  <!-- /tile footer -->
-                
-
-                </section>
-                <!-- /tile -->
-
-
-                <!-- tile -->
-                <section class="tile transparent">
-
-
-                  <!-- tile header -->
-                  <div class="tile-header transparent">
-                    <h1><strong>Transparent Header</strong> Tile</h1>
-                    <div class="controls">
-                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
-                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
-                    </div>
-                  </div>
-                  <!-- /tile header -->
-
-                  <!-- tile widget -->
-                  <div class="tile-widget color transparent-black rounded-top-corners">
-
-                    <p>This is tile widget area.</p>
-
-                  </div>
-                  <!-- /tile widget -->
-
-                  <!-- tile body -->
-                  <div class="tile-body color transparent-black">
-                    
-                    <p>This is tile body area.</p>
-
-                  </div>
-                  <!-- /tile body -->
-
-                   <!-- tile footer -->
-                  <div class="tile-footer color transparent-black rounded-bottom-corners">
-                    
-                    <p>This is tile footer area.</p>
-
-                  </div>
-                  <!-- /tile footer -->
-                
-
-                </section>
-                <!-- /tile -->
-
-
-
-              </div>
-              <!-- /col 4 -->
-
-
-
-              <!-- col 4 -->
-              <div class="col-md-4">
-              
-
-                
-                <!-- tile -->
-                <section class="tile color transparent-white">
-
-
-                  <!-- tile header -->
-                  <div class="tile-header">
-                    <h1><strong>Transparent White</strong> Tile</h1>
-                    <div class="controls">
-                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
-                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
-                    </div>
-                  </div>
-                  <!-- /tile header -->
-
-                  <!-- tile widget -->
-                  <div class="tile-widget">
-
-                    <p>This is tile widget area.</p>
-
-                  </div>
-                  <!-- /tile widget -->
-
-                  <!-- tile body -->
-                  <div class="tile-body">
-                    
-                    <p>This is tile body area.</p>
-
-                  </div>
-                  <!-- /tile body -->
-
-                   <!-- tile footer -->
-                  <div class="tile-footer">
-                    
-                    <p>This is tile footer area.</p>
-
-                  </div>
-                  <!-- /tile footer -->
-                
-
-                </section>
-                <!-- /tile -->
-
-
-                <!-- tile -->
-                <section class="tile color greensea">
-
-
-                  <!-- tile header -->
-                  <div class="tile-header">
-                    <h1><strong>Colored Tile</strong> Greensea</h1>
-                    <div class="controls">
-                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
-                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
-                    </div>
-                  </div>
-                  <!-- /tile header -->
-
-                  <!-- tile widget -->
-                  <div class="tile-widget">
-
-                    <p>This is tile widget area.</p>
-
-                  </div>
-                  <!-- /tile widget -->
-
-                  <!-- tile body -->
-                  <div class="tile-body">
-                    
-                    <p>This is tile body area.</p>
-
-                  </div>
-                  <!-- /tile body -->
-
-                   <!-- tile footer -->
-                  <div class="tile-footer">
-                    
-                    <p>This is tile footer area.</p>
-
-                  </div>
-                  <!-- /tile footer -->
-                
-
-                </section>
-                <!-- /tile -->
-
-
-
-                <!-- tile -->
-                <section class="tile color red">
-
-
-                  <!-- tile header -->
-                  <div class="tile-header">
-                    <h1 class="small-uppercase"><strong>Uppercased</strong> Heading</h1>
-                    <div class="controls">
-                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
-                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
-                    </div>
-                  </div>
-                  <!-- /tile header -->
-
-                  <!-- tile widget -->
-                  <div class="tile-widget">
-
-                    <p>This is tile widget area.</p>
-
-                  </div>
-                  <!-- /tile widget -->
-
-                  <!-- tile body -->
-                  <div class="tile-body">
-                    
-                    <p>This is tile body area.</p>
-
-                  </div>
-                  <!-- /tile body -->
-
-                   <!-- tile footer -->
-                  <div class="tile-footer">
-                    
-                    <p>This is tile footer area.</p>
-
-                  </div>
-                  <!-- /tile footer -->
-                
-
-                </section>
-                <!-- /tile -->
-
-
-                <!-- tile -->
-                <section class="tile">
-
-
-                  <!-- tile header -->
-                  <div class="tile-header nopadding">           
-                    <div class="controls">
-                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
-                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
-                    </div>
-                  </div>
-                  <!-- /tile header -->
-
-                  <!-- tile widget -->
-                  <div class="tile-widget">
-
-                    <p><strong>Tile without heading.</strong> This is tile widget area.</p>
-
-                  </div>
-                  <!-- /tile widget -->
-
-                  <!-- tile body -->
-                  <div class="tile-body">
-                    
-                    <p>This is tile body area.</p>
-
-                  </div>
-                  <!-- /tile body -->
-
-                   <!-- tile footer -->
-                  <div class="tile-footer">
-                    
-                    <p>This is tile footer area.</p>
-
-                  </div>
-                  <!-- /tile footer -->
-                                
-
-
-                </section>
-                <!-- /tile -->
-
-
-
-              </div>
-              <!-- /col 4 -->
-
-
-              
             </div>
-            <!-- /row -->
-          
 
 
-          </div>
+
+            <div class="col-md-8 tile nopadding transparent">
+
+
+              <!-- tile widget -->
+              <div class="tile-widget nopadding color transparent-black rounded-top-right-corner">
+                <div class="cal-header">
+                  <!-- Nav tabs -->
+                  <ul class="nav nav-tabs">
+                    <li class="active"><a href="#" id="change-view-month" data-toggle="tab">Month</a></li>
+                    <li><a href="#" id="change-view-week" data-toggle="tab">Week</a></li>
+                    <li><a href="#" id="change-view-day" data-toggle="tab">Day</a></li>
+                    <li><a href="#" id="change-view-today">Today</a></li>
+                  </ul>
+                  <!-- / Nav tabs -->
+                </div>
+              </div>
+              <!-- /tile widget -->
+
+
+              <div class="tile-body rounded-bottom-right-corner">                
+                <div id='calendar'></div>
+              </div>
+
+            </div>
+
+
+            <!-- modal --> 
+            <div class="modal fade" id="cal-new-event" tabindex="-1" role="dialog" aria-labelledby="new-event" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">Close</button>
+                    <h3 class="modal-title thin" id="new-event">Add New Event</h3>
+                  </div>
+                  <form role="form" id="add-event" parsley-validate>
+                    <div class="modal-body">
+                        
+                      <div class="form-group">
+                        <label class="control-label">Event title *</label>
+                        <input type="text" class="form-control" id="event-title" name="event-title" parsley-trigger="change" parsley-required="true" parsley-minlength="4" parsley-validation-minlength="1">
+                      </div>
+
+                      <div class="form-group">
+                        <label class="control-label">Color</label>
+                        <div class="input-group event-color">
+                          <input type="text" class="form-control" id="event-color" name="event-color" readonly="">
+                          <div class="input-group-btn">
+                            <button type="button" class="btn btn-greensea dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tint"></i></button>
+                            <ul class="dropdown-menu pull-right">
+                              <li>
+                                <div id="event-colorpalette" data-return-color="#event-color"></div>
+                              </li>
+                            </ul>
+                          </div><!-- /btn-group -->
+                        </div><!-- /input-group -->
+                      </div>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button class="btn btn-red" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                      <button type="submit" class="btn btn-green">Add event</button>
+                    </div>
+                  </form>
+                </div><!-- /.modal-content -->
+              </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->  
+
+
+
+          </div>  
           <!-- /content container -->
 
 
@@ -1257,7 +812,7 @@
                 <li class="online">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/ici-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/ici-avatar.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Ing. Imrich <strong>Kamarel</strong></h6>
@@ -1271,7 +826,7 @@
                   <div class="media">
                     
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/arnold-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/arnold-avatar.jpg" alt>
                     </a>
                     <span class="badge badge-red unread">3</span>
 
@@ -1287,7 +842,7 @@
                 <li class="online">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/peter-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/peter-avatar.jpg" alt>
 
                     </a>
                     <div class="media-body">
@@ -1301,7 +856,7 @@
                 <li class="online">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/george-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/george-avatar.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">George <strong>McCain</strong></h6>
@@ -1314,7 +869,7 @@
                 <li class="busy">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar1.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar1.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Lucius <strong>Cashmere</strong></h6>
@@ -1327,7 +882,7 @@
                 <li class="busy">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar2.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar2.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Jesse <strong>Phoenix</strong></h6>
@@ -1346,7 +901,7 @@
                 <li class="offline">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar4.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar4.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Dell <strong>MacApple</strong></h6>
@@ -1360,7 +915,7 @@
                   <div class="media">
                     
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar5.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar5.jpg" alt>
                     </a>
 
                     <div class="media-body">
@@ -1375,7 +930,7 @@
                 <li class="offline">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar6.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar6.jpg" alt>
 
                     </a>
                     <div class="media-body">
@@ -1389,7 +944,7 @@
                 <li class="offline">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar7.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar7.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Bobby <strong>Socks</strong></h6>
@@ -1402,7 +957,7 @@
                 <li class="offline">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar8.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar8.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Anna <strong>Opichia</strong></h6>
@@ -1424,7 +979,7 @@
                 <li class="online">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/ici-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/ici-avatar.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Ing. Imrich <strong>Kamarel</strong></h6>
@@ -1438,7 +993,7 @@
                   <div class="media">
                     
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/arnold-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/arnold-avatar.jpg" alt>
                     </a>
                     <span class="badge badge-red unread">3</span>
 
@@ -1454,7 +1009,7 @@
                 <li class="offline">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/peter-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/peter-avatar.jpg" alt>
 
                     </a>
                     <div class="media-body">
@@ -1477,7 +1032,7 @@
                   <div class="media">
                     
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/arnold-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/arnold-avatar.jpg" alt>
                     </a>
                     <span class="badge badge-red unread">3</span>
 
@@ -1493,7 +1048,7 @@
                 <li class="offline">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar8.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar8.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Anna <strong>Opichia</strong></h6>
@@ -1506,7 +1061,7 @@
                 <li class="busy">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar1.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar1.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Lucius <strong>Cashmere</strong></h6>
@@ -1519,7 +1074,7 @@
                 <li class="online">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/ici-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/ici-avatar.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Ing. Imrich <strong>Kamarel</strong></h6>
@@ -1655,23 +1210,216 @@
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="assets/js/jquery.js"></script>
+<script src="../assets/js/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="../assets/js/vendor/bootstrap/bootstrap.min.js"></script>
     <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css&skin=sons-of-obsidian"></script>
-    <script type="text/javascript" src="assets/js/vendor/mmenu/js/jquery.mmenu.min.js"></script>
-    <script type="text/javascript" src="assets/js/vendor/sparkline/jquery.sparkline.min.js"></script>
-    <script type="text/javascript" src="assets/js/vendor/nicescroll/jquery.nicescroll.min.js"></script>
-    <script type="text/javascript" src="assets/js/vendor/animate-numbers/jquery.animateNumbers.js"></script>
-    <script type="text/javascript" src="assets/js/vendor/videobackground/jquery.videobackground.js"></script>
-    <script type="text/javascript" src="assets/js/vendor/blockui/jquery.blockUI.js"></script>
+    <script type="text/javascript" src="../assets/js/vendor/mmenu/js/jquery.mmenu.min.js"></script>
+    <script type="text/javascript" src="../assets/js/vendor/sparkline/jquery.sparkline.min.js"></script>
+    <script type="text/javascript" src="../assets/js/vendor/nicescroll/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="../assets/js/vendor/animate-numbers/jquery.animateNumbers.js"></script>
+    <script type="text/javascript" src="../assets/js/vendor/videobackground/jquery.videobackground.js"></script>
+    <script type="text/javascript" src="../assets/js/vendor/blockui/jquery.blockUI.js"></script>
 
-    <script src="assets/js/minimal.min.js"></script>
+    <script src="../assets/js/vendor/fullcalendar/jquery-ui-1.10.4.custom.min.js"></script>
+    <script src="../assets/js/vendor/fullcalendar/fullcalendar.min.js"></script>
+
+    <script src="../assets/js/vendor/colorpalette/bootstrap-colorpalette.js"></script>
+
+    <script src="../assets/js/vendor/parsley/parsley.min.js"></script>
+
+    <script src="../assets/js/minimal.min.js"></script>
 
     <script>
     $(function(){
 
+      // Initialize external events
+    
+      $('#external-events div.external-event').each(function() {
+        
+        // Make events draggable using jQuery UI
+        $(this).draggable({
+          zIndex: 999,
+          revert: true, 
+          revertDuration: 0,
+          drag: function() {
+            $('.cal-options .date-info').addClass('out')
+            $('.cal-options #event-delete').addClass('in')
+          },
+          stop: function() {
+            $('.cal-options .date-info').removeClass('out')
+            $('.cal-options #event-delete').removeClass('in')
+          }
+        });
+        
+      });
+    
+    
+      // Initialize the calendar 
+
+      $('#calendar').fullCalendar({
+        header: {
+          left: 'prev,next today',
+          center: 'title',
+          right: 'month,agendaWeek,agendaDay'
+        },
+        editable: true,
+        droppable: true,
+        drop: function(date, allDay) { 
+          var  copiedEventObject = {
+            title: $(this).text(),
+            start: date,
+            allDay: allDay,
+            color: $(this).css('border-left-color')
+          };
+          $('#calendar').fullCalendar('renderEvent', copiedEventObject, true);
+          // is the "remove after drop" checkbox checked?
+          if ($('#drop-remove').is(':checked')) {
+            // if so, remove the element from the "Draggable Events" list
+            $(this).remove();
+          }
+        }
+      });
+
+      // Hide default header
+      $('.fc-header').hide();
       
+      // Show current date
+      var currentDate = $('#calendar').fullCalendar('getDate');
+      
+      $('#cal-current-day').html($.fullCalendar.formatDate(currentDate, "dddd"));
+      $('#cal-current-date').html($.fullCalendar.formatDate(currentDate, "MMM yyyy"));     
+    
+      // Previous month action
+      $('#cal-prev').click(function(){
+        $('#calendar').fullCalendar( 'prev' );
+        currentDate = $('#calendar').fullCalendar('getDate'); 
+        $('#cal-current-day').html($.fullCalendar.formatDate(currentDate, "dddd"));  
+        $('#cal-current-date').html($.fullCalendar.formatDate(currentDate, "MMM yyyy"));
+      });
+
+      // Next month action
+      $('#cal-next').click(function(){
+        $('#calendar').fullCalendar( 'next' );
+        currentDate = $('#calendar').fullCalendar('getDate');
+        $('#cal-current-day').html($.fullCalendar.formatDate(currentDate, "dddd"));   
+        $('#cal-current-date').html($.fullCalendar.formatDate(currentDate, "MMM yyyy"));
+      });
+      
+      // Change to month view
+      $('#change-view-month').click(function(){
+        $('#calendar').fullCalendar('changeView', 'month');
+
+        // safari fix 
+        $('#content .main').fadeOut(0, function() {
+          setTimeout( function() {
+            $('#content .main').css({'display':'table'}); 
+          }, 0);
+        });
+
+      });
+      
+      // Change to week view
+      $('#change-view-week').click(function(){
+        $('#calendar').fullCalendar( 'changeView', 'agendaWeek');
+        
+        // safari fix 
+        $('#content .main').fadeOut(0, function() {
+          setTimeout( function() {
+            $('#content .main').css({'display':'table'}); 
+          }, 0);
+        });
+
+      });
+      
+      // Change to day view
+      $('#change-view-day').click(function(){
+        $('#calendar').fullCalendar( 'changeView','agendaDay');
+
+        // safari fix 
+        $('#content .main').fadeOut(0, function() {
+          setTimeout( function() {
+            $('#content .main').css({'display':'table'}); 
+          }, 0);
+        });
+        
+      });
+
+      // Change to today view
+      $('#change-view-today').click(function(){
+        $('#calendar').fullCalendar('today');
+        currentDate = $('#calendar').fullCalendar('getDate');  
+        $('#cal-current-day').html($.fullCalendar.formatDate(currentDate, "dddd"));
+        $('#cal-current-date').html($.fullCalendar.formatDate(currentDate, "MMM yyyy"));
+      });
+
+      // Initialize colorpalette
+      $('#event-colorpalette').colorPalette({ 
+        colors:[['#428bca', '#5cb85c', '#5bc0de', '#f0ad4e' ,'#d9534f', '#ff4a43', '#22beef', '#a2d200', '#ffc100', '#cd97eb', '#16a085', '#FF0066', '#A40778', '#1693A5', '#418bca', '#d9544f', '#3f4e62']] 
+      }).on('selectColor', function(e) {
+        var data = $(this).data();
+
+        $(data.returnColor).val(e.color);
+        $(this).parents(".input-group").css("border-bottom-color", e.color );
+      });
+
+
+      // Submitting new event form
+      $('#add-event').submit(function(e){
+        e.preventDefault();
+        var form = $(this);
+        
+        if(form.parsley('isValid')) {
+       
+          var newEvent = $('<div class="external-event" data-color="'+$("#event-color").val()+'">'+$('#event-title').val() +'</div>');
+          
+          newEvent.css({'border-left-color': $("#event-color").val() || "#717171"});
+
+          if ($('#external-events .external-event').length > 0) {
+            $('#external-events .external-event:last').after(newEvent);
+          } else {
+            $('#external-events .events').after(newEvent);
+          };
+
+          $('#external-events .external-event:last').after(newEvent);
+
+          $('#external-events .external-event').draggable({
+            zIndex: 999,
+            revert: true,     
+            revertDuration: 0,
+            drag: function() {
+              $('.cal-options .date-info').addClass('out')
+              $('.cal-options #event-delete').addClass('in')
+            },
+            stop: function() {
+              $('.cal-options .date-info').removeClass('out')
+              $('.cal-options #event-delete').removeClass('in')
+            }
+          });
+
+          form[0].reset();
+
+          $('#cal-new-event').modal('hide');
+
+        } else {
+          
+          $('#event-title').focus();
+          return false;
+
+        }
+        
+      });
+
+      // Event deleting function
+      $('.cal-options #event-delete').droppable({
+        accept: "#external-events .external-event",
+        hoverClass: "active",
+        drop: function(event, ui) {
+          ui.draggable.remove();
+          $(this).removeClass( "active in" );
+          $('.cal-options .date-info').removeClass('out')
+        }
+      });
       
     })
       

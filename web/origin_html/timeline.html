@@ -1,24 +1,23 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Minimal 1.0 - Form Wizard</title>
+    <title>Minimal 1.0 - Timeline</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8" />
 
     <link rel="icon" type="image/ico" href="http://tattek.com/minimal/assets/images/favicon.ico" />
     <!-- Bootstrap -->
-    <link href="assets/css/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/css/vendor/bootstrap/bootstrap.min.css" rel="stylesheet">
     <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/vendor/animate/animate.css">
-    <link type="text/css" rel="stylesheet" media="all" href="assets/js/vendor/mmenu/css/jquery.mmenu.all.css" />
-    <link rel="stylesheet" href="assets/js/vendor/videobackground/css/jquery.videobackground.css">
-    <link rel="stylesheet" href="assets/css/vendor/bootstrap-checkbox.css">
+    <link rel="stylesheet" href="../assets/css/vendor/animate/animate.css">
+    <link type="text/css" rel="stylesheet" media="all" href="../assets/js/vendor/mmenu/css/jquery.mmenu.all.css" />
+    <link rel="stylesheet" href="../assets/js/vendor/videobackground/css/jquery.videobackground.css">
+    <link rel="stylesheet" href="../assets/css/vendor/bootstrap-checkbox.css">
 
-    <link rel="stylesheet" href="assets/js/vendor/chosen/css/chosen.min.css">
-    <link rel="stylesheet" href="assets/js/vendor/chosen/css/chosen-bootstrap.css">
-    <link rel="stylesheet" href="assets/js/vendor/tabdrop/css/tabdrop.css">
+    <link rel="stylesheet" href="../assets/js/vendor/superbox/css/style.css">
+    <link rel="stylesheet" href="../assets/js/vendor/colorbox/css/colorbox.css">
 
-    <link href="assets/css/minimal.css" rel="stylesheet">
+    <link href="../assets/css/minimal.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -29,8 +28,8 @@
   </head>
   <body class="bg-1">
 
-
  
+
 
 
     <!-- Preloader -->
@@ -180,7 +179,7 @@
                   <li>
                     <a class="cyan" href="#">
                       <div class="profile-photo">
-                        <img src="assets/images/ici-avatar.jpg" alt />
+                        <img src="../assets/images/ici-avatar.jpg" alt />
                       </div>
                       <div class="message-info">
                         <span class="sender">Ing. Imrich Kamarel</span>
@@ -193,7 +192,7 @@
                   <li>
                     <a class="green" href="#">
                       <div class="profile-photo">
-                        <img src="assets/images/arnold-avatar.jpg" alt />
+                        <img src="../assets/images/arnold-avatar.jpg" alt />
                       </div>
                       <div class="message-info">
                         <span class="sender">Arnold Karlsberg</span>
@@ -206,7 +205,7 @@
                   <li>
                     <a href="#">
                       <div class="profile-photo">
-                        <img src="assets/images/profile-photo.jpg" alt />
+                        <img src="../assets/images/profile-photo.jpg" alt />
                       </div>
                       <div class="message-info">
                         <span class="sender">John Douey</span>
@@ -219,7 +218,7 @@
                   <li>
                     <a class="red" href="#">
                       <div class="profile-photo">
-                        <img src="assets/images/peter-avatar.jpg" alt />
+                        <img src="../assets/images/peter-avatar.jpg" alt />
                       </div>
                       <div class="message-info">
                         <span class="sender">Peter Kay</span>
@@ -232,7 +231,7 @@
                   <li>
                     <a class="orange" href="#">
                       <div class="profile-photo">
-                        <img src="assets/images/george-avatar.jpg" alt />
+                        <img src="../assets/images/george-avatar.jpg" alt />
                       </div>
                       <div class="message-info">
                         <span class="sender">George McCain</span>
@@ -305,7 +304,7 @@
 
               <li class="dropdown divided user" id="current-user">
                 <div class="profile-photo">
-                  <img src="assets/images/profile-photo.jpg" alt />
+                  <img src="../assets/images/profile-photo.jpg" alt />
                 </div>
                 <a class="dropdown-toggle options" data-toggle="dropdown" href="#">
                   John Douey <i class="fa fa-caret-down"></i>
@@ -391,7 +390,7 @@
                     </a>
                   </li>
 
-                  <li class="dropdown open active">
+                  <li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                       <i class="fa fa-list"></i> Forms <b class="fa fa-plus dropdown-plus"></b>
                     </a>
@@ -406,7 +405,7 @@
                           <i class="fa fa-caret-right"></i> Validation
                         </a>
                       </li>
-                      <li class="active">
+                      <li>
                         <a href="form-wizard.html">
                           <i class="fa fa-caret-right"></i> Form Wizard
                         </a>
@@ -466,7 +465,7 @@
                     </ul>
                   </li>
 
-                  <li class="dropdown">
+                  <li class="dropdown open active">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                       <i class="fa fa-desktop"></i> Example Pages <b class="fa fa-plus dropdown-plus"></b>
                       <span class="label label-greensea">mails</span>
@@ -502,7 +501,7 @@
                           <i class="fa fa-caret-right"></i> Gallery
                         </a>
                       </li>
-                      <li>
+                      <li class="active">
                         <a href="timeline.html">
                           <i class="fa fa-caret-right"></i> Timeline
                         </a>
@@ -643,15 +642,15 @@
           <div class="pageheader">
             
 
-            <h2><i class="fa fa-shield" style="line-height: 50px;padding-left: 0;"></i> Form Wizard <span>// Place subtitle here...</span></h2>
+            <h2><i class="fa fa-clock-o" style="line-height: 48px;padding-left: 0;"></i> Timeline <span>// Place subtitle here...</span></h2>
             
 
             <div class="breadcrumbs">
               <ol class="breadcrumb">
                 <li>You are here</li>
                 <li><a href="index.html">Minimal</a></li>
-                <li><a href="form-elements.html">Forms</a></li>
-                <li class="active">Form Wizard</li>
+                <li><a href="#">Example Pages</a></li>
+                <li class="active">Timeline</li>
               </ol>
             </div>
 
@@ -665,152 +664,138 @@
 
 
           <!-- content main container -->
-          <div class="main">
+          <div class="main">        
 
 
 
-
-            <!-- row -->
+           <!-- row -->
             <div class="row">
 
+
+
+
               <!-- col 12 -->
-              <div class="col-md-12">
+              <div class="col-md-12 text-center sm-left">
+              
 
-
-
-                <!-- tile -->
-                <section id="rootwizard" class="tabbable transparent tile">
-
-
-
-                  <!-- tile header -->
-                  <div class="tile-header transparent">
-                    <h1><strong>Form</strong> Wizard</h1>
-                    <div class="controls">
-                      <a href="#" class="refresh"><i class="fa fa-refresh"></i></a>
-                      <a href="#" class="remove"><i class="fa fa-times"></i></a>
-                    </div>
-                  </div>
-                  <!-- /tile header -->
-
-                  <!-- tile widget -->
-                  <div class="tile-widget nopadding color transparent-black rounded-top-corners">
-                    <ul>
-                      <li><a href="#tab1" data-toggle="tab">User Data</a></li>
-                      <li><a href="#tab2" data-toggle="tab">Contact</a></li>
-                      <li><a href="#tab3" data-toggle="tab">EULA</a></li>
-                    </ul>
-                  </div>
-                  <!-- /tile widget -->
-
-                  <!-- tile body -->
-                  <div class="tile-body">
-                    
-                    <div id="bar" class="progress progress-striped active">
-                      <div class="progress-bar progress-bar-cyan animate-progress-bar"></div>
-                    </div>
-
-                    <div class="tab-content">
-                      
-                      <div class="tab-pane" id="tab1">
-                        <form class="form-horizontal form1" role="form" parsley-validate>
-                      
-                          <div class="form-group">
-                            <label for="fullname" class="col-sm-2 control-label">Full Name *</label>
-                            <div class="col-sm-10">
-                              <input type="text" class="form-control" id="fullname" parsley-trigger="change" parsley-required="true" parsley-minlength="4" parsley-validation-minlength="1">
-                            </div>
-                          </div>
-
-                          <div class="form-group">
-                            <label for="password" class="col-sm-2 control-label">Password *</label>
-                            <div class="col-sm-10">
-                              <input type="password" class="form-control" id="password" parsley-trigger="change" parsley-required="true" parsley-minlength="6" parsley-type="alphanum" parsley-validation-minlength="1">
-                            </div>
-                          </div>
-
-                          <div class="form-group">
-                            <label for="passwordconfirm" class="col-sm-2 control-label">Password Confirm *</label>
-                            <div class="col-sm-10">
-                              <input type="password" class="form-control" id="passwordconfirm" parsley-trigger="change" parsley-required="true" parsley-minlength="6" parsley-type="alphanum" parsley-validation-minlength="1" parsley-equalto="#password">
-                            </div>
-                          </div>
-
-                        </form>
-                      </div>
-
-                      <div class="tab-pane" id="tab2">
-
-                        <form class="form-horizontal form2" role="form" parsley-validate id="contact">
-                         
-                          <div class="form-group">
-                            <label for="email" class="col-sm-2 control-label">Email *</label>
-                            <div class="col-sm-10">
-                              <input type="email" class="form-control" id="email" parsley-trigger="change" parsley-required="true" parsley-minlength="4" parsley-type="email" parsley-validation-minlength="1">
-                            </div>
-                          </div>
-
-                          <div class="form-group">
-                            <label for="website" class="col-sm-2 control-label">Website</label>
-                            <div class="col-sm-10">
-                              <input type="text" class="form-control" id="website" parsley-trigger="change" parsley-minlength="4" parsley-type="url" parsley-validation-minlength="1">
-                            </div>
-                          </div>
-
-                          <div class="form-group">
-                            <label for="phonenum" class="col-sm-2 control-label">Phone Number</label>
-                            <div class="col-sm-10">
-                              <input type="text" class="form-control" id="phonenum" parsley-trigger="change" parsley-type="phone" parsley-validation-minlength="0" placeholder="1234567891">
-                            </div>
-                          </div>  
-
-                        </form>
-
-                      </div>
-                      
-                      <div class="tab-pane" id="tab3">
-                        
-                        <form class="form-horizontal form3" role="form" parsley-validate id="eula">
-                         
-                          <div class="form-group">
-                            <div class="col-sm-12">
-                              <div class="checkbox">
-                                <input type="checkbox" value="1" id="opt01" parsley-trigger="change" parsley-required="true" name="eula">
-                                <label for="opt01">EULA acceptation *</label>
-                              </div>
-                              <div class="checkbox">
-                                <input type="checkbox" value="1" id="opt02" name="newsletter">
-                                <label for="opt02">Receive newsletter</label>
-                              </div>
-                            </div>
-                          </div>
-
-                        </form>
-
-                      </div>
-
-                    </div>
-
-                  </div>
-                  <!-- /tile body -->
-
-                  <!-- tile footer -->
-                  <div class="tile-footer border-top color white rounded-bottom-corners nopadding">
-                    <ul class="pager pager-full wizard">
-                      <li class="previous"><a href="javascript:;"><i class="fa fa-arrow-left fa-lg"></i></a></li>
-                      <li class="next"><a href="javascript:;"><i class="fa fa-arrow-right fa-lg"></i></a></li>
-                      <li class="next finish" style="display:none;"><a href="javascript:;"><i class="fa fa-check fa-lg"></i></a></li>
-                    </ul>
-                  </div>
-                  <!-- /tile footer -->
-                  
                 
+                <h1 class="timeline-heading"><strong>This</strong> month</h1>
+                
+                <ol class="timeline">
 
+                  <li class="color transparent-black">
+                    <div class="pointer slategray">
+                      <i class="fa fa-compass"></i>
+                    </div>
+                    <div class="el-container">
+                      <div class="side bg-greensea"><i class="fa fa-user"></i></div>
+                      <div class="content">
+                        <span class="time"><i class="fa fa-clock-o"></i> Today, 04:24pm</span>
+                        <h1><strong>Left Side</strong> Icon</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                    </div>
+                  </li>
 
-                </section>
-                <!-- /tile -->
+                  <li class="color transparent-black textured">
+                    <div class="pointer slategray">
+                      <i class="fa fa-calendar"></i>
+                    </div>
+                     <div class="el-container">
+                      <div class="content">
+                        <span class="time"><i class="fa fa-clock-o"></i> Today, 03:15pm</span>
+                        <h1><strong>Right Side</strong> Icon</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                      <div class="side"><i class="fa fa-cog"></i></div>
+                    </div>
+                  </li> 
 
+                  <li class="color transparent-white">
+                    <div class="pointer slategray">
+                      <i class="fa fa-clock-o"></i>
+                    </div>
+                    <div class="el-container">
+                      <div class="side"><img src="../assets/images/carousel/carousel1.jpg" alt></div>
+                      <div class="content">
+                        <span class="time"><i class="fa fa-clock-o"></i> Today, 03:12pm</span>
+                        <h1><strong>Left Side</strong> Image</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                    </div>
+                  </li>
 
+                  <li class="color transparent-black">
+                    <div class="pointer slategray">
+                      <i class="fa fa-coffee"></i>
+                    </div>
+                     <div class="el-container">
+                      <div class="content">
+                        <span class="time"><i class="fa fa-clock-o"></i> Today, 01:55pm</span>
+                        <h1><strong>Right Side</strong> Image</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                      <div class="side"><img src="../assets/images/carousel/carousel2.jpg" alt></div>
+                    </div>
+                  </li>
+
+                  <li class="color transparent-black">
+                    <div class="pointer slategray">
+                      <i class="fa fa-envelope"></i>
+                    </div>
+                     <div class="el-container">
+                      <div class="content">
+                        <span class="time"><i class="fa fa-clock-o"></i> Yesterday, 18:40pm</span>
+                        <h1><strong>Top</strong> Icon</h1>
+                        <i class="fa fa-info-circle block"></i>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="color transparent-white">
+                    <div class="pointer slategray">
+                      <i class="fa fa-comments"></i>
+                    </div>
+                     <div class="el-container">
+                      <div class="content">
+                        <span class="time"><i class="fa fa-clock-o"></i> Yesterday, 22:12pm</span>
+                        <h1><strong>Bottom</strong> Image</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <img src="../assets/images/carousel/carousel3.jpg" alt>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="color red">
+                    <div class="pointer red">
+                      <i class="fa fa-heart"></i>
+                    </div>
+                     <div class="el-container">
+                      <div class="content">
+                        <span class="time"><i class="fa fa-clock-o"></i> Yesterday, 13:22pm</span>
+                        <h1>Colored Element</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                    </div>
+                  </li>
+
+                  <li class="full-width">
+                    <div class="pointer slategray">
+                      <i class="fa fa-question-circle"></i>
+                    </div>
+                     <div class="el-container">
+                      <div class="content">
+                        <span class="time"><i class="fa fa-clock-o"></i> Yesterday, 10:18am</span>
+                        <h1>Full-Width Element</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                      </div>
+                    </div>
+                  </li>                                          
+
+                </ol>
+
+                <h1 class="timeline-heading"><strong>Older</strong></h1>
 
 
               </div>
@@ -820,10 +805,11 @@
               
             </div>
             <!-- /row -->
-          
 
 
-          </div>
+
+
+          </div>  
           <!-- /content container -->
 
 
@@ -856,7 +842,7 @@
                 <li class="online">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/ici-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/ici-avatar.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Ing. Imrich <strong>Kamarel</strong></h6>
@@ -870,7 +856,7 @@
                   <div class="media">
                     
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/arnold-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/arnold-avatar.jpg" alt>
                     </a>
                     <span class="badge badge-red unread">3</span>
 
@@ -886,7 +872,7 @@
                 <li class="online">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/peter-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/peter-avatar.jpg" alt>
 
                     </a>
                     <div class="media-body">
@@ -900,7 +886,7 @@
                 <li class="online">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/george-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/george-avatar.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">George <strong>McCain</strong></h6>
@@ -913,7 +899,7 @@
                 <li class="busy">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar1.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar1.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Lucius <strong>Cashmere</strong></h6>
@@ -926,7 +912,7 @@
                 <li class="busy">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar2.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar2.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Jesse <strong>Phoenix</strong></h6>
@@ -945,7 +931,7 @@
                 <li class="offline">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar4.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar4.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Dell <strong>MacApple</strong></h6>
@@ -959,7 +945,7 @@
                   <div class="media">
                     
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar5.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar5.jpg" alt>
                     </a>
 
                     <div class="media-body">
@@ -974,7 +960,7 @@
                 <li class="offline">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar6.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar6.jpg" alt>
 
                     </a>
                     <div class="media-body">
@@ -988,7 +974,7 @@
                 <li class="offline">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar7.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar7.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Bobby <strong>Socks</strong></h6>
@@ -1001,7 +987,7 @@
                 <li class="offline">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar8.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar8.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Anna <strong>Opichia</strong></h6>
@@ -1023,7 +1009,7 @@
                 <li class="online">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/ici-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/ici-avatar.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Ing. Imrich <strong>Kamarel</strong></h6>
@@ -1037,7 +1023,7 @@
                   <div class="media">
                     
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/arnold-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/arnold-avatar.jpg" alt>
                     </a>
                     <span class="badge badge-red unread">3</span>
 
@@ -1053,7 +1039,7 @@
                 <li class="offline">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/peter-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/peter-avatar.jpg" alt>
 
                     </a>
                     <div class="media-body">
@@ -1076,7 +1062,7 @@
                   <div class="media">
                     
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/arnold-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/arnold-avatar.jpg" alt>
                     </a>
                     <span class="badge badge-red unread">3</span>
 
@@ -1092,7 +1078,7 @@
                 <li class="offline">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar8.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar8.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Anna <strong>Opichia</strong></h6>
@@ -1105,7 +1091,7 @@
                 <li class="busy">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/random-avatar1.jpg" alt>
+                      <img class="media-object" src="../assets/images/random-avatar1.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Lucius <strong>Cashmere</strong></h6>
@@ -1118,7 +1104,7 @@
                 <li class="online">
                   <div class="media">
                     <a class="pull-left profile-photo" href="#">
-                      <img class="media-object" src="assets/images/ici-avatar.jpg" alt>
+                      <img class="media-object" src="../assets/images/ici-avatar.jpg" alt>
                     </a>
                     <div class="media-body">
                       <h6 class="media-heading">Ing. Imrich <strong>Kamarel</strong></h6>
@@ -1254,81 +1240,24 @@
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="assets/js/jquery.js"></script>
+<script src="../assets/js/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="assets/js/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="../assets/js/vendor/bootstrap/bootstrap.min.js"></script>
     <script src="https://google-code-prettify.googlecode.com/svn/loader/run_prettify.js?lang=css&skin=sons-of-obsidian"></script>
-    <script type="text/javascript" src="assets/js/vendor/mmenu/js/jquery.mmenu.min.js"></script>
-    <script type="text/javascript" src="assets/js/vendor/sparkline/jquery.sparkline.min.js"></script>
-    <script type="text/javascript" src="assets/js/vendor/nicescroll/jquery.nicescroll.min.js"></script>
-    <script type="text/javascript" src="assets/js/vendor/animate-numbers/jquery.animateNumbers.js"></script>
-    <script type="text/javascript" src="assets/js/vendor/videobackground/jquery.videobackground.js"></script>
-    <script type="text/javascript" src="assets/js/vendor/blockui/jquery.blockUI.js"></script>
+    <script type="text/javascript" src="../assets/js/vendor/mmenu/js/jquery.mmenu.min.js"></script>
+    <script type="text/javascript" src="../assets/js/vendor/sparkline/jquery.sparkline.min.js"></script>
+    <script type="text/javascript" src="../assets/js/vendor/nicescroll/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="../assets/js/vendor/animate-numbers/jquery.animateNumbers.js"></script>
+    <script type="text/javascript" src="../assets/js/vendor/videobackground/jquery.videobackground.js"></script>
+    <script type="text/javascript" src="../assets/js/vendor/blockui/jquery.blockUI.js"></script>
 
-    <script src="assets/js/vendor/tabdrop/bootstrap-tabdrop.min.js"></script>
-    <script src="assets/js/vendor/chosen/chosen.jquery.min.js"></script>
-    <script src="assets/js/vendor/parsley/parsley.min.js"></script>
-    <script src="assets/js/vendor/wizard/jquery.bootstrap.wizard.min.js"></script>
-
-    <script src="assets/js/minimal.min.js"></script>
+    <script src="../assets/js/minimal.min.js"></script>
 
     <script>
     $(function(){
 
-      //initialize form wizard
-      $('#rootwizard').bootstrapWizard({
 
-        'tabClass': 'nav nav-tabs tabdrop',
-        onTabShow: function(tab, navigation, index) {
-          var $total = navigation.find('li').not('.tabdrop').length;
-          var $current = index+1;
-          var $percent = ($current/$total) * 100;
-          $('#rootwizard').find('#bar .progress-bar').css({width:$percent+'%'});
 
-          // If it's the last tab then hide the last button and show the finish instead
-          if($current >= $total) {
-            $('#rootwizard').find('.pager .next').hide();
-            $('#rootwizard').find('.pager .finish').show();
-            $('#rootwizard').find('.pager .finish').removeClass('disabled');
-          } else {
-            $('#rootwizard').find('.pager .next').show();
-            $('#rootwizard').find('.pager .finish').hide();
-          }  
-        },
-
-        onNext: function(tab, navigation, index) {
-
-          var form = $('.form' + index)
-
-          form.parsley('validate');
-
-          if(form.parsley('isValid')) {
-            tab.addClass('success');       
-          } else {
-            return false;
-          }
-
-        },
-
-        onTabClick: function(tab, navigation, index) {
-
-          var form = $('.form' + (index+1))
-
-          form.parsley('validate');
-
-          if(form.parsley('isValid')) {
-            tab.addClass('success');  
-          } else {
-            return false;
-          }
-
-        }
-
-      });
-
-      // Initialize tabDrop
-      $('.tabdrop').tabdrop({text: '<i class="fa fa-th-list"></i>'});
-      
       
     })
       
