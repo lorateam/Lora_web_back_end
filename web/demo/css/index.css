@@ -13,20 +13,6 @@ body {
     bottom:-100px;
     display: none;
 }
-/*个性化图标*/
-#myIcon {
-    background: orange;
-    width: 20px;
-    height: 60px;
-    border-radius: 10px;
-}
-#mapContainer
-{
-    float: left;
-    width: 50%;
-    height: 50%;
-    position: relative;
-}
 #showInformation
 {
     position: relative;

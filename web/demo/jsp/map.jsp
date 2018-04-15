@@ -5,7 +5,7 @@
   Time: 21:51
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@page contentType="text/html; UTF-8" pageEncoding="UTF-8" language="java" %>
 <script>
     //初始化地图对象，加载地图
     var map = new AMap.Map("mapContainer", {
@@ -13,11 +13,10 @@
         rotation:150,
         resizeEnable: true,
         expandZoomRange:true,
-        room: 18,
-        zooms: [3,20],
+        //设置缩放区间
+        zooms: [19,20],
         viewMode:'3D'
     });
-
     //设计坐标格式
 
     //创意工坊
