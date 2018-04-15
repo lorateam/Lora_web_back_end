@@ -41,7 +41,9 @@
         pitch:60,
         rotation:150,
         resizeEnable: true,
-        zoom: 13,
+        expandZoomRange:true,
+        room: 17,
+        zooms: [3,20],
         viewMode:'3D'
     });
     //设计坐标
@@ -54,7 +56,6 @@
             position:lnglats[i],
             map:map
         });
-        marker.content='我是第'+(i+1)+'个Marker';
         //覆盖事件click代表点击，makerclick传入此maker对象
         marker.on('click',openInfo);
     }

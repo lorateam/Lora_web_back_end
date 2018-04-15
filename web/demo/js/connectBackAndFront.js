@@ -1,6 +1,3 @@
-function test() {
-    alert(666);
-}
 setInterval(function(){
     askForInformation();//向服务器请求数据
 },3000);
