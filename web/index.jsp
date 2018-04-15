@@ -36,8 +36,8 @@
                 </section>
                 <!-- Right col 右边内容第二列-->
                 <section class="col-lg-6 connectedSortable">
-                    <%@include file="WEB-INF/frame_jsp/frame_linechart.jsp"%>
                     <%@include file="WEB-INF/frame_jsp/frame_todolist.jsp"%>
+                    <%@include file="WEB-INF/frame_jsp/frame_linechart.jsp"%>
                 </section>
             </div>
         </section>
