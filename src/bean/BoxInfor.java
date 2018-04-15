@@ -2,21 +2,26 @@ package bean;
 
 public class BoxInfor {
     private String boxId;
-    private int tmp;
-    private int hum;
+    private float temp;
+    private float hum;
     private int lum;
     private int battery;
     private String time;
-
-    public void setBoxId(String tmpBoxId)
+    private int fire;
+    private float current;
+    public void setBoxId(Box box)
     {
-        this.boxId = tmpBoxId;
+        this.boxId = box.getId();
     }
-    public void setTmp(int tmpTmp)
+    public void setFire(int tmpFire)
     {
-        this.tmp = tmpTmp;
+        this.fire = tmpFire;
     }
-    public void setHum(int tmpHum)
+    public void setTemp(float tmpTemp)
+    {
+        this.temp = tmpTemp;
+    }
+    public void setHum(float tmpHum)
     {
         this.hum = tmpHum;
     }
@@ -32,15 +37,17 @@ public class BoxInfor {
     {
         this.time =  tmpSetTime;
     }
+    public void setCurrent(float tmpCurrent){this.current = tmpCurrent;}
+    public int getFire(){return fire;}
     public String getBoxId()
     {
         return boxId;
     }
-    public int getTmp()
+    public float getTemp()
     {
-        return tmp;
+        return temp;
     }
-    public int getHum()
+    public float getHum()
     {
         return hum;
     }
@@ -56,4 +63,5 @@ public class BoxInfor {
     {
         return time;
     }
+    public float getCurrent(){return current;}
 }

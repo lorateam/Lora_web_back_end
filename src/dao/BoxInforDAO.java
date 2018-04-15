@@ -6,9 +6,67 @@ import dbset.DBUtil;
 import java.sql.*;
 
 public class BoxInforDAO {
-    public int getFireInfor(Box bean1,BoxInfor bean2) {
+    //获取id号为0020001的火灾报警情况
+    public BoxInfor getBoxInfor002000x(Box beanBox,BoxInfor beanBoxInfor)
+    {
+        String sql = " SELECT fire FROM "+beanBox.getTableName()+" where fk_id = " + beanBox.getId() + " ORDER BY pri_id DESC ";
+        try(Connection c = DBUtil.getConnection(); PreparedStatement s = c.prepareStatement(sql))
+        {
+            ResultSet rs = s.executeQuery(sql);
+
+            if (rs.next()) {
+                beanBoxInfor.setFire(rs.getInt("fire"));
+            }
+            return beanBoxInfor;
+        }catch (SQLException e) {
+
+            e.printStackTrace();
+            System.out.print("连接数据库失败");
+            return beanBoxInfor;
+        }
+    }
+    //获取id号为001000x的数据，x可以为任意
+    public BoxInfor getBoxInfor001000x(Box beanBox,BoxInfor beanBoxInfor)
+    {
+        String sql = " SELECT temp,hum,lum FROM "+beanBox.getTableName()+" where fk_id = "+beanBox.getId()+" ORDER BY p_key DESC ";
+        try(Connection c = DBUtil.getConnection(); PreparedStatement s = c.prepareStatement(sql))
+        {
+            ResultSet rs = s.executeQuery(sql);
+            if (rs.next())
+            {
+                beanBoxInfor.setTemp(rs.getFloat("temp"));
+                beanBoxInfor.setHum(rs.getFloat("hum"));
+                beanBoxInfor.setLum(rs.getInt("lum"));
+            }
+            return beanBoxInfor;
+        }catch (SQLException e) {
+
+            e.printStackTrace();
+            System.out.print("连接数据库失败");
+            return beanBoxInfor;
+        }
+    }
+    //获取id号为005000x的数据，x可以为任意，目前设置此id号所代表的box为用电器监测盒子
+    public BoxInfor getBoxInfor005000x(Box beanBox, BoxInfor beanBoxInfor)
+    {
+        String sql = "SELECT current FROM "+beanBox.getTableName()+" where fk_id = "+ beanBox.getId() +" ORDER BY pri_id DESC";
+        try (Connection c = DBUtil.getConnection(); PreparedStatement s = c.prepareStatement(sql)){
+            ResultSet rs = s.executeQuery(sql);
+            if (rs.next())
+            {
+                beanBoxInfor.setCurrent(rs.getFloat("current"));
+            }
+            return beanBoxInfor;
+        }catch (SQLException e) {
+
+            e.printStackTrace();
+            System.out.print("连接数据库失败");
+            return beanBoxInfor;
+        }
+    }
+    /*public int getFireInfor(Box beanBox,BoxInfor beanBoxInfor) {
         //1代表有火情
-        String sql = " SELECT fire FROM "+bean1.getTableName()+" where fk_id = " + bean2.getBoxId() + " ORDER BY pri_id DESC ";
+        String sql = " SELECT fire FROM "+beanBox.getTableName()+" where fk_id = " + beanBox.getBoxId() + " ORDER BY pri_id DESC ";
         try (Connection c = DBUtil.getConnection(); PreparedStatement s = c.prepareStatement(sql)) {
             ResultSet rs = s.executeQuery(sql);
             int result = 0;
@@ -76,5 +134,5 @@ public class BoxInforDAO {
             System.out.print("连接数据库失败");
             return 0;
         }
-    }
+    }*/
 }

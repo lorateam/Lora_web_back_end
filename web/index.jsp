@@ -45,7 +45,4 @@
     </aside>
 </div>
 <%@include file="WEB-INF/frame_jsp/frame_js_foot.jsp"%>
-<script>
-
-</script>
 </body>

@@ -2,7 +2,7 @@ setInterval(function(){
     askForInformation();//向服务器请求数据
 },3000);
 function askForInformation() {
-    $.post("../jsp/index.jsp", function (data) {
+    $.post("../jsp/indexBack.jsp", function (data) {
         var json = eval("(" + data + ")");
         var list = json.fireConfition;
         //这里返回的是字符串的true

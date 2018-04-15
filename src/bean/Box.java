@@ -1,12 +1,19 @@
 package bean;
 
 public class Box {
-    private int id;
+    private String id;
     private  String name;
     private  String address;
     private String agent;
     private String tableName;
-    public void setId(int tmpId)
+    public Box(String tmpId, String tmpName, String tmpAddress, String tmpTableName)
+    {
+        this.id = tmpId;
+        this.name = tmpName;
+        this.address = tmpAddress;
+        this.tableName = tmpTableName;
+    }
+    public void setId(String tmpId)
     {
         this.id = tmpId;
     }
@@ -26,7 +33,7 @@ public class Box {
     {
         this.tableName = tmpTableName;
     }
-    public int getId()
+    public String getId()
     {
         return id;
     }
