@@ -1,3 +1,5 @@
+<%@page contentType="text/html; UTF-8" pageEncoding="UTF-8" language="java" %>
+
 <div class="row">
     <div class="col-lg-3 col-xs-6">
         <!-- small box -->
@@ -7,7 +9,7 @@
                     150
                 </h3>
                 <p>
-                    Temperature
+                    温度
                 </p>
             </div>
             <div class="icon">
@@ -26,7 +28,7 @@
                     53<sup style="font-size: 20px">%</sup>
                 </h3>
                 <p>
-                    Humidity
+                    湿度
                 </p>
             </div>
             <div class="icon">
@@ -45,7 +47,7 @@
                     44
                 </h3>
                 <p>
-                    Illumination
+                    光照
                 </p>
             </div>
             <div class="icon">
@@ -64,7 +66,7 @@
                     65
                 </h3>
                 <p>
-                    Air Quality
+                    空气质量
                 </p>
             </div>
             <div class="icon">

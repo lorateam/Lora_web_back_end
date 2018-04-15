@@ -28,7 +28,7 @@
         <ul class="sidebar-menu">
             <li class="active">
                 <a href="index.html">
-                    <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+                    <i class="fa fa-dashboard"></i> <span>控制台</span>
                 </a>
             </li>
             <%--<li>--%>
