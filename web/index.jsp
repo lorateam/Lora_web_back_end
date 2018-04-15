@@ -1,4 +1,7 @@
 <%@page contentType="text/html; UTF-8" pageEncoding="UTF-8" language="java" %>
+<!--
+如果要修改元素内容，直接找到include的文件进行修改，注意div.class布局
+-->
 <head>
     <meta charset="UTF-8">
     <title>Lora设备监控</title>
@@ -27,12 +30,13 @@
             <div class="row">
                 <!-- Left col右边第一列 -->
                 <section class="col-lg-6 connectedSortable">
+                    <!--这个地图是嵌在日历表面的，include的日历不要删，删了的话地图就不能显示了-->
                     <%@include file="WEB-INF/frame_jsp/frame_calendor.jsp"%>
                     <%@include file="demo/html/frame_index.jsp"%>
                 </section>
                 <!-- Right col 右边内容第二列-->
                 <section class="col-lg-6 connectedSortable">
-                    <%@include file="WEB-INF/frame_jsp/frame_quxian.jsp"%>
+                    <%@include file="WEB-INF/frame_jsp/frame_linechart.jsp"%>
                     <%@include file="WEB-INF/frame_jsp/frame_todolist.jsp"%>
                 </section>
             </div>
@@ -40,6 +44,8 @@
         <%@include file="WEB-INF/frame_jsp/frame_smallbox.jsp"%>
     </aside>
 </div>
-    <%@include file="WEB-INF/frame_jsp/frame_js_foot.jsp"%>
+<%@include file="WEB-INF/frame_jsp/frame_js_foot.jsp"%>
+<script>
 
+</script>
 </body>
