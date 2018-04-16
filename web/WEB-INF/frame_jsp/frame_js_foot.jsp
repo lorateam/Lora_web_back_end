@@ -35,8 +35,8 @@
         resize: true,
 
         data: [
-            {y: '2011 Q1', item1: 2666, item2: 2666},
-            {y: '2011 Q2', item1: 2778, item2: 2294},
+            {y: '2011 Q1', item1: 2666, item2: 2666, item3:5454},
+            {y: '2011 Q2', item1: 2778, item2: 2294, item3:7879},
             {y: '2011 Q3', item1: 4912, item2: 1969},
             {y: '2011 Q4', item1: 3767, item2: 3597},
             {y: '2012 Q1', item1: 6810, item2: 1914},
@@ -47,9 +47,9 @@
             {y: '2013 Q2', item1: 8432, item2: 5713}
         ],
         xkey: 'y',
-        ykeys: ['item1', 'item2'],
-        labels: ['Item 1', 'Item 2'],
-        lineColors: ['#a0d0e0', '#3c8dbc'],
+        ykeys: ['item1', 'item2', "item3"],
+        labels: ['Item 1', 'Item 2', "item3"],
+        lineColors: ['#a0d0e0', '#3c8dbc',"#002214"],
         hideHover: 'auto'
     });
 </script>
