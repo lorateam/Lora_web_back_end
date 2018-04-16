@@ -1,12 +1,11 @@
 <%@page contentType="text/html; UTF-8" pageEncoding="UTF-8" language="java" %>
-
+<script src="demo/js/jquery-3.3.1.js"></script>
 <div class="row">
     <div class="col-lg-3 col-xs-6">
         <!-- small box -->
         <div class="small-box bg-aqua">
             <div class="inner">
-                <h3>
-                    150
+                <h3 id = "temp">
                 </h3>
                 <p>
                     温度

@@ -1,7 +1,7 @@
 <%@page contentType="text/html; UTF-8" pageEncoding="UTF-8" language="java" %>
 
 <header class="header">
-    <a href="index.html" class="logo">
+    <a href="index.jsp" class="logo">
         <!-- Add the class icon to your logo image or logo icon to add the margining -->
         四川大学开源硬件协会
     </a>

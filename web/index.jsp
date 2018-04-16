@@ -32,7 +32,7 @@
                 <section class="col-lg-6 connectedSortable">
                     <!--这个地图是嵌在日历表面的，include的日历不要删，删了的话地图就不能显示了-->
                     <%@include file="WEB-INF/frame_jsp/frame_calendor.jsp"%>
-                    <%@include file="demo/html/frame_index.jsp"%>
+                    <%@include file="WEB-INF/frame_jsp/frame_index.jsp"%>
                 </section>
                 <!-- Right col 右边内容第二列-->
                 <section class="col-lg-6 connectedSortable">
@@ -46,3 +46,18 @@
 </div>
 <%@include file="WEB-INF/frame_jsp/frame_js_foot.jsp"%>
 </body>
+<script>
+    setInterval(function(){
+        askForInformation();//向服务器请求数据
+    },3000);
+    function askForInformation() {
+        $.post("indexBack.jsp", function (data) {
+            var json = JSON.parse(data);
+            var fire = json[2].fire;
+            //这里返回的是字符串的true
+            if (fire === 1) {
+                alert("发生火灾了!");
+            }
+        })
+    }
+</script>
