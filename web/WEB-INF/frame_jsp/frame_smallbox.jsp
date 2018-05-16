@@ -5,7 +5,8 @@
         <!-- small box -->
         <div class="small-box bg-aqua">
             <div class="inner">
-                <h3 id = "temp">
+                <h3>
+                    53<sup style="font-size: 20px">℃</sup>
                 </h3>
                 <p>
                     温度

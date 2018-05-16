@@ -7,7 +7,7 @@ import java.sql.SQLException;
 public class DBUtil
 {
     //此IP地址为秦浩钧的手机热点产生，后面要将数据库加到服务器上
-    static String ip="118.24.3.29";
+    static String ip="tx.3cat.top";
     static int port=3306;
     static String database="lora_new";
     static String encoding="UTF-8";
