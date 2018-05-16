@@ -9,7 +9,7 @@ public class BoxInforDAO {
     //获取id号为0020001的火灾报警情况
     public BoxInfor getBoxInfor002000x(Box beanBox,BoxInfor beanBoxInfor)
     {
-        String sql = " SELECT fire FROM "+beanBox.getTableName()+" where fk_id = " + beanBox.getId() + " ORDER BY pri_id DESC ";
+        String sql = " SELECT fire FROM "+beanBox.getTableName()+" where fk_id = " + beanBox.getId() + " ORDER BY pri_id DESC  LIMIT 1";
         try(Connection c = DBUtil.getConnection(); PreparedStatement s = c.prepareStatement(sql))
         {
             ResultSet rs = s.executeQuery(sql);
@@ -28,7 +28,7 @@ public class BoxInforDAO {
     //获取id号为001000x的数据，x可以为任意
     public BoxInfor getBoxInfor001000x(Box beanBox,BoxInfor beanBoxInfor)
     {
-        String sql = " SELECT temp,hum,lum FROM "+beanBox.getTableName()+" where fk_id = "+beanBox.getId()+" ORDER BY p_key DESC ";
+        String sql = " SELECT temp,hum,lum FROM "+beanBox.getTableName()+" where fk_id = "+beanBox.getId()+" ORDER BY p_key DESC LIMIT 1";
         try(Connection c = DBUtil.getConnection(); PreparedStatement s = c.prepareStatement(sql))
         {
             ResultSet rs = s.executeQuery(sql);
@@ -49,7 +49,7 @@ public class BoxInforDAO {
     //获取id号为005000x的数据，x可以为任意，目前设置此id号所代表的box为用电器监测盒子
     public BoxInfor getBoxInfor005000x(Box beanBox, BoxInfor beanBoxInfor)
     {
-        String sql = "SELECT current FROM "+beanBox.getTableName()+" where fk_id = "+ beanBox.getId() +" ORDER BY pri_id DESC";
+        String sql = "SELECT current FROM "+beanBox.getTableName()+" where fk_id = "+ beanBox.getId() +" ORDER BY pri_id DESC LIMIT 1";
         try (Connection c = DBUtil.getConnection(); PreparedStatement s = c.prepareStatement(sql)){
             ResultSet rs = s.executeQuery(sql);
             if (rs.next())
